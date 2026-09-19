@@ -59,7 +59,7 @@ export function ClauseAssistDrawer({
     <Drawer
       title="工伤伤残等级条款（GB/T 16180—2014）"
       placement="right"
-      size="80%"
+      size="95%"
       open={open}
       onClose={onClose}
       destroyOnHidden

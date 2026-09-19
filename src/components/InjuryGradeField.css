@@ -1,3 +1,8 @@
 .injury-grade-field {
   text-align: left;
 }
+
+.injury-grade-field__input-row {
+  display: flex;
+  width: 100%;
+}

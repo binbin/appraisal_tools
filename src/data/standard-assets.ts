@@ -111,12 +111,12 @@ export const STANDARD_ASSETS: StandardAsset[] = [
       {
         category: "盲",
         level: "一级盲",
-        vision: "无光感～<0.02，或视野半径 <5°",
+        vision: "无光感～<0.02，或视野半径<5°",
       },
       {
         category: "盲",
         level: "二级盲",
-        vision: "<0.05～0.02，或视野半径 <10°",
+        vision: "<0.05～0.02，或视野半径<10°",
       },
       {
         category: "低视力",

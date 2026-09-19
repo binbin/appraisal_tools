@@ -1,3710 +1,3710 @@
 [
   {
-    "id": "1_1",
-    "code": "1_1",
+    "id": "1.1",
+    "code": "1.1",
     "grade": "一级",
     "summary": "极重度智能损伤",
     "category": "neuro_psych"
   },
   {
-    "id": "1_2",
-    "code": "1_2",
+    "id": "1.2",
+    "code": "1.2",
     "grade": "一级",
     "summary": "四肢瘫肌力≤3级或三肢瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_3",
-    "code": "1_3",
+    "id": "1.3",
+    "code": "1.3",
     "grade": "一级",
     "summary": "重度非肢体瘫运动障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "1_4",
-    "code": "1_4",
+    "id": "1.4",
+    "code": "1.4",
     "grade": "一级",
     "summary": "面部重度毁容，同时伴有表C.2中二级伤残之一者",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_5",
-    "code": "1_5",
+    "id": "1.5",
+    "code": "1.5",
     "grade": "一级",
     "summary": "全身重度瘢痕形成，占体表面积≥90%，伴有脊柱及四肢大关节活动功能基本丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_6",
-    "code": "1_6",
+    "id": "1.6",
+    "code": "1.6",
     "grade": "一级",
     "summary": "双肘关节以上缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_7",
-    "code": "1_7",
+    "id": "1.7",
+    "code": "1.7",
     "grade": "一级",
     "summary": "双下肢膝上缺失及一上肢肘上缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_8",
-    "code": "1_8",
+    "id": "1.8",
+    "code": "1.8",
     "grade": "一级",
     "summary": "双下肢及一上肢瘢痕畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "1_9",
-    "code": "1_9",
+    "id": "1.9",
+    "code": "1.9",
     "grade": "一级",
     "summary": "双眼无光感或仅有光感但光定位不准者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "1_10",
-    "code": "1_10",
+    "id": "1.10",
+    "code": "1.10",
     "grade": "一级",
     "summary": "肺功能重度损伤和呼吸困难Ⅳ级，需终生依赖机械通气",
     "category": "occupational"
   },
   {
-    "id": "1_11",
-    "code": "1_11",
+    "id": "1.11",
+    "code": "1.11",
     "grade": "一级",
     "summary": "双肺或心肺联合移植术",
     "category": "general_urology"
   },
   {
-    "id": "1_12",
-    "code": "1_12",
+    "id": "1.12",
+    "code": "1.12",
     "grade": "一级",
     "summary": "小肠切除≥90%",
     "category": "general_urology"
   },
   {
-    "id": "1_13",
-    "code": "1_13",
+    "id": "1.13",
+    "code": "1.13",
     "grade": "一级",
     "summary": "肝切除后原位肝移植",
     "category": "general_urology"
   },
   {
-    "id": "1_14",
-    "code": "1_14",
+    "id": "1.14",
+    "code": "1.14",
     "grade": "一级",
     "summary": "胆道损伤原位肝移植",
     "category": "general_urology"
   },
   {
-    "id": "1_15",
-    "code": "1_15",
+    "id": "1.15",
+    "code": "1.15",
     "grade": "一级",
     "summary": "全胰切除",
     "category": "general_urology"
   },
   {
-    "id": "1_16",
-    "code": "1_16",
+    "id": "1.16",
+    "code": "1.16",
     "grade": "一级",
     "summary": "双侧肾切除或孤肾切除术后，用透析维持或同种肾移植术后肾功能不全尿毒症期",
     "category": "general_urology"
   },
   {
-    "id": "1_17",
-    "code": "1_17",
+    "id": "1.17",
+    "code": "1.17",
     "grade": "一级",
     "summary": "尘肺叁期伴肺功能重度损伤及(或)重度低氧血症〔PO2<5.3kPa(<40mmHg)〕",
     "category": "occupational"
   },
   {
-    "id": "1_18",
-    "code": "1_18",
+    "id": "1.18",
+    "code": "1.18",
     "grade": "一级",
     "summary": "其他职业性肺部疾患，伴肺功能重度损伤及(或)重度低氧血症〔PO2<5.3kPa(<40mmHg)〕",
     "category": "occupational"
   },
   {
-    "id": "1_19",
-    "code": "1_19",
+    "id": "1.19",
+    "code": "1.19",
     "grade": "一级",
     "summary": "放射性肺炎后，两叶以上肺纤维化伴重度低氧血症〔PO2<5.3kPa(<40mmHg)〕",
     "category": "occupational"
   },
   {
-    "id": "1_20",
-    "code": "1_20",
+    "id": "1.20",
+    "code": "1.20",
     "grade": "一级",
     "summary": "职业性肺癌伴肺功能重度损伤",
     "category": "occupational"
   },
   {
-    "id": "1_21",
-    "code": "1_21",
+    "id": "1.21",
+    "code": "1.21",
     "grade": "一级",
     "summary": "职业性肝血管肉瘤，重度肝功能损害",
     "category": "occupational"
   },
   {
-    "id": "1_22",
-    "code": "1_22",
+    "id": "1.22",
+    "code": "1.22",
     "grade": "一级",
     "summary": "肝硬化伴食道静脉破裂出血，肝功能重度损害",
     "category": "general_urology"
   },
   {
-    "id": "1_23",
-    "code": "1_23",
+    "id": "1.23",
+    "code": "1.23",
     "grade": "一级",
     "summary": "肾功能不全尿毒症期，内生肌酐清除率持续<10mL/min，或血浆肌酐水平持续>707μmol/L(8mg/dL)",
     "category": "general_urology"
   },
   {
-    "id": "2_1",
-    "code": "2_1",
+    "id": "2.1",
+    "code": "2.1",
     "grade": "二级",
     "summary": "重度智能损伤",
     "category": "neuro_psych"
   },
   {
-    "id": "2_2",
-    "code": "2_2",
+    "id": "2.2",
+    "code": "2.2",
     "grade": "二级",
     "summary": "三肢瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_3",
-    "code": "2_3",
+    "id": "2.3",
+    "code": "2.3",
     "grade": "二级",
     "summary": "偏瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_4",
-    "code": "2_4",
+    "id": "2.4",
+    "code": "2.4",
     "grade": "二级",
     "summary": "截瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_5",
-    "code": "2_5",
+    "id": "2.5",
+    "code": "2.5",
     "grade": "二级",
     "summary": "双手全肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_6",
-    "code": "2_6",
+    "id": "2.6",
+    "code": "2.6",
     "grade": "二级",
     "summary": "完全感觉性或混合性失语",
     "category": "neuro_psych"
   },
   {
-    "id": "2_7",
-    "code": "2_7",
+    "id": "2.7",
+    "code": "2.7",
     "grade": "二级",
     "summary": "全身重度瘢痕形成，占体表面积≥80%，伴有四肢大关节中3个以上活动功能受限",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_8",
-    "code": "2_8",
+    "id": "2.8",
+    "code": "2.8",
     "grade": "二级",
     "summary": "全面部瘢痕或植皮伴有重度毁容",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_9",
-    "code": "2_9",
+    "id": "2.9",
+    "code": "2.9",
     "grade": "二级",
     "summary": "双侧前臂缺失或双手功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_10",
-    "code": "2_10",
+    "id": "2.10",
+    "code": "2.10",
     "grade": "二级",
     "summary": "双下肢瘢痕畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_11",
-    "code": "2_11",
+    "id": "2.11",
+    "code": "2.11",
     "grade": "二级",
     "summary": "双膝以上缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_12",
-    "code": "2_12",
+    "id": "2.12",
+    "code": "2.12",
     "grade": "二级",
     "summary": "双膝、双踝关节功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_13",
-    "code": "2_13",
+    "id": "2.13",
+    "code": "2.13",
     "grade": "二级",
     "summary": "同侧上、下肢缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_14",
-    "code": "2_14",
+    "id": "2.14",
+    "code": "2.14",
     "grade": "二级",
     "summary": "四肢大关节(肩、髋、膝、肘)中4个及以上关节功能完全丧失者",
     "category": "ortho_plastic"
   },
   {
-    "id": "2_15",
-    "code": "2_15",
+    "id": "2.15",
+    "code": "2.15",
     "grade": "二级",
     "summary": "一眼有或无光感，另眼矫正视力≤0.02，或视野≤8%(或半径≤5°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "2_16",
-    "code": "2_16",
+    "id": "2.16",
+    "code": "2.16",
     "grade": "二级",
     "summary": "无吞咽功能，完全依赖胃管进食",
     "category": "eye_ent_oral"
   },
   {
-    "id": "2_17",
-    "code": "2_17",
+    "id": "2.17",
+    "code": "2.17",
     "grade": "二级",
     "summary": "双侧上颌骨或双侧下颌骨完全缺损",
     "category": "eye_ent_oral"
   },
   {
-    "id": "2_18",
-    "code": "2_18",
+    "id": "2.18",
+    "code": "2.18",
     "grade": "二级",
     "summary": "一侧上颌骨及对侧下颌骨完全缺损，并伴有颜面软组织损伤>30cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "2_19",
-    "code": "2_19",
+    "id": "2.19",
+    "code": "2.19",
     "grade": "二级",
     "summary": "一侧全肺切除并胸廓成形术，呼吸困难Ⅲ级",
     "category": "occupational"
   },
   {
-    "id": "2_20",
-    "code": "2_20",
+    "id": "2.20",
+    "code": "2.20",
     "grade": "二级",
     "summary": "心功能不全三级",
     "category": "general_urology"
   },
   {
-    "id": "2_21",
-    "code": "2_21",
+    "id": "2.21",
+    "code": "2.21",
     "grade": "二级",
     "summary": "食管闭锁或损伤后无法行食管重建术，依赖胃造瘘或空肠造瘘进食",
     "category": "general_urology"
   },
   {
-    "id": "2_22",
-    "code": "2_22",
+    "id": "2.22",
+    "code": "2.22",
     "grade": "二级",
     "summary": "小肠切除3/4，合并短肠综合症",
     "category": "general_urology"
   },
   {
-    "id": "2_23",
-    "code": "2_23",
+    "id": "2.23",
+    "code": "2.23",
     "grade": "二级",
     "summary": "肝切除3/4，合并肝功能重度损害",
     "category": "general_urology"
   },
   {
-    "id": "2_24",
-    "code": "2_24",
+    "id": "2.24",
+    "code": "2.24",
     "grade": "二级",
     "summary": "肝外伤后发生门脉高压三联症或发生Budd-chiari综合征",
     "category": "general_urology"
   },
   {
-    "id": "2_25",
-    "code": "2_25",
+    "id": "2.25",
+    "code": "2.25",
     "grade": "二级",
     "summary": "胆道损伤致肝功能重度损害",
     "category": "general_urology"
   },
   {
-    "id": "2_26",
-    "code": "2_26",
+    "id": "2.26",
+    "code": "2.26",
     "grade": "二级",
     "summary": "胰次全切除，胰腺移植术后",
     "category": "general_urology"
   },
   {
-    "id": "2_27",
-    "code": "2_27",
+    "id": "2.27",
+    "code": "2.27",
     "grade": "二级",
     "summary": "孤肾部分切除后，肾功能不全失代偿期",
     "category": "general_urology"
   },
   {
-    "id": "2_28",
-    "code": "2_28",
+    "id": "2.28",
+    "code": "2.28",
     "grade": "二级",
     "summary": "肺功能重度损伤及(或)重度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "2_29",
-    "code": "2_29",
+    "id": "2.29",
+    "code": "2.29",
     "grade": "二级",
     "summary": "尘肺叁期伴肺功能中度损伤及(或)中度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "2_30",
-    "code": "2_30",
+    "id": "2.30",
+    "code": "2.30",
     "grade": "二级",
     "summary": "尘肺贰期伴肺功能重度损伤及(或)重度低氧血症[PO2<5.3kPa(40mmHg)]",
     "category": "occupational"
   },
   {
-    "id": "2_31",
-    "code": "2_31",
+    "id": "2.31",
+    "code": "2.31",
     "grade": "二级",
     "summary": "尘肺叁期伴活动性肺结核",
     "category": "occupational"
   },
   {
-    "id": "2_32",
-    "code": "2_32",
+    "id": "2.32",
+    "code": "2.32",
     "grade": "二级",
     "summary": "职业性肺癌或胸膜间皮瘤",
     "category": "occupational"
   },
   {
-    "id": "2_33",
-    "code": "2_33",
+    "id": "2.33",
+    "code": "2.33",
     "grade": "二级",
     "summary": "职业性急性白血病",
     "category": "occupational"
   },
   {
-    "id": "2_34",
-    "code": "2_34",
+    "id": "2.34",
+    "code": "2.34",
     "grade": "二级",
     "summary": "急性重型再生障碍性贫血",
     "category": "occupational"
   },
   {
-    "id": "2_35",
-    "code": "2_35",
+    "id": "2.35",
+    "code": "2.35",
     "grade": "二级",
     "summary": "慢性重度中毒性肝病",
     "category": "occupational"
   },
   {
-    "id": "2_36",
-    "code": "2_36",
+    "id": "2.36",
+    "code": "2.36",
     "grade": "二级",
     "summary": "肝血管肉瘤",
     "category": "general_urology"
   },
   {
-    "id": "2_37",
-    "code": "2_37",
+    "id": "2.37",
+    "code": "2.37",
     "grade": "二级",
     "summary": "肾功能不全尿毒症期，内生肌酐清除率持续<25mL/min，或血浆肌酐水平持续>450μmol/L(5mg/dL)",
     "category": "general_urology"
   },
   {
-    "id": "2_38",
-    "code": "2_38",
+    "id": "2.38",
+    "code": "2.38",
     "grade": "二级",
     "summary": "职业性膀胱癌",
     "category": "occupational"
   },
   {
-    "id": "2_39",
-    "code": "2_39",
+    "id": "2.39",
+    "code": "2.39",
     "grade": "二级",
     "summary": "放射性肿瘤",
     "category": "occupational"
   },
   {
-    "id": "3_1",
-    "code": "3_1",
+    "id": "3.1",
+    "code": "3.1",
     "grade": "三级",
     "summary": "精神病性症状，经系统治疗1年后仍表现为危险或冲动行为者",
     "category": "neuro_psych"
   },
   {
-    "id": "3_2",
-    "code": "3_2",
+    "id": "3.2",
+    "code": "3.2",
     "grade": "三级",
     "summary": "精神病性症状，经系统治疗1年后仍缺乏生活自理能力者",
     "category": "neuro_psych"
   },
   {
-    "id": "3_3",
-    "code": "3_3",
+    "id": "3.3",
+    "code": "3.3",
     "grade": "三级",
     "summary": "偏瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_4",
-    "code": "3_4",
+    "id": "3.4",
+    "code": "3.4",
     "grade": "三级",
     "summary": "截瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_5",
-    "code": "3_5",
+    "id": "3.5",
+    "code": "3.5",
     "grade": "三级",
     "summary": "双足全肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_6",
-    "code": "3_6",
+    "id": "3.6",
+    "code": "3.6",
     "grade": "三级",
     "summary": "中度非肢体瘫运动障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "3_7",
-    "code": "3_7",
+    "id": "3.7",
+    "code": "3.7",
     "grade": "三级",
     "summary": "完全性失用、失写、失读、失认等具有两项及两项以上者",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_8",
-    "code": "3_8",
+    "id": "3.8",
+    "code": "3.8",
     "grade": "三级",
     "summary": "全身重度瘢痕形成，占体表面积≥70%，伴有四肢大关节中2个以上活动功能受限",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_9",
-    "code": "3_9",
+    "id": "3.9",
+    "code": "3.9",
     "grade": "三级",
     "summary": "面部瘢痕或植皮≥2/3并有中度毁容",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_10",
-    "code": "3_10",
+    "id": "3.10",
+    "code": "3.10",
     "grade": "三级",
     "summary": "一手缺失，另一手拇指缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_11",
-    "code": "3_11",
+    "id": "3.11",
+    "code": "3.11",
     "grade": "三级",
     "summary": "双手拇、食指缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_12",
-    "code": "3_12",
+    "id": "3.12",
+    "code": "3.12",
     "grade": "三级",
     "summary": "一手功能完全丧失，另一手拇指功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_13",
-    "code": "3_13",
+    "id": "3.13",
+    "code": "3.13",
     "grade": "三级",
     "summary": "双髋、双膝关节中，有一个关节缺失或功能完全丧失及另一关节重度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_14",
-    "code": "3_14",
+    "id": "3.14",
+    "code": "3.14",
     "grade": "三级",
     "summary": "双膝以下缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_15",
-    "code": "3_15",
+    "id": "3.15",
+    "code": "3.15",
     "grade": "三级",
     "summary": "一侧髋、膝关节畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_16",
-    "code": "3_16",
+    "id": "3.16",
+    "code": "3.16",
     "grade": "三级",
     "summary": "非同侧腕上、踝上缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_17",
-    "code": "3_17",
+    "id": "3.17",
+    "code": "3.17",
     "grade": "三级",
     "summary": "非同侧上、下肢瘢痕畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_18",
-    "code": "3_18",
+    "id": "3.18",
+    "code": "3.18",
     "grade": "三级",
     "summary": "一眼有或无光感，另眼矫正视力≤0.05或视野≤16%(半径≤10°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_19",
-    "code": "3_19",
+    "id": "3.19",
+    "code": "3.19",
     "grade": "三级",
     "summary": "双眼矫正视力<0.05或视野≤16%(半径≤10°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_20",
-    "code": "3_20",
+    "id": "3.20",
+    "code": "3.20",
     "grade": "三级",
     "summary": "一侧眼球摘除或眼内容物剜出，另眼矫正视力<0.1或视野≤24%(或半径≤15°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_21",
-    "code": "3_21",
+    "id": "3.21",
+    "code": "3.21",
     "grade": "三级",
     "summary": "呼吸完全依赖气管套管或造口",
     "category": "general_urology"
   },
   {
-    "id": "3_22",
-    "code": "3_22",
+    "id": "3.22",
+    "code": "3.22",
     "grade": "三级",
     "summary": "喉或气管损伤导致静止状态下或仅轻微活动即有呼吸困难",
     "category": "occupational"
   },
   {
-    "id": "3_23",
-    "code": "3_23",
+    "id": "3.23",
+    "code": "3.23",
     "grade": "三级",
     "summary": "同侧上、下颌骨完全缺损",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_24",
-    "code": "3_24",
+    "id": "3.24",
+    "code": "3.24",
     "grade": "三级",
     "summary": "一侧上颌骨或下颌骨完全缺损，伴颜面部软组织损伤>30cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_25",
-    "code": "3_25",
+    "id": "3.25",
+    "code": "3.25",
     "grade": "三级",
     "summary": "舌缺损>全舌的2/3",
     "category": "eye_ent_oral"
   },
   {
-    "id": "3_26",
-    "code": "3_26",
+    "id": "3.26",
+    "code": "3.26",
     "grade": "三级",
     "summary": "一侧全肺切除并胸廓成形术",
     "category": "general_urology"
   },
   {
-    "id": "3_27",
-    "code": "3_27",
+    "id": "3.27",
+    "code": "3.27",
     "grade": "三级",
     "summary": "一侧胸廓成形术，肋骨切除6根以上",
     "category": "general_urology"
   },
   {
-    "id": "3_28",
-    "code": "3_28",
+    "id": "3.28",
+    "code": "3.28",
     "grade": "三级",
     "summary": "一侧全肺切除并隆凸切除成形术",
     "category": "general_urology"
   },
   {
-    "id": "3_29",
-    "code": "3_29",
+    "id": "3.29",
+    "code": "3.29",
     "grade": "三级",
     "summary": "一侧全肺切除并大血管重建术",
     "category": "general_urology"
   },
   {
-    "id": "3_30",
-    "code": "3_30",
+    "id": "3.30",
+    "code": "3.30",
     "grade": "三级",
     "summary": "Ⅲ度房室传导阻滞",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_31",
-    "code": "3_31",
+    "id": "3.31",
+    "code": "3.31",
     "grade": "三级",
     "summary": "肝切除2/3，并肝功能中度损害",
     "category": "general_urology"
   },
   {
-    "id": "3_32",
-    "code": "3_32",
+    "id": "3.32",
+    "code": "3.32",
     "grade": "三级",
     "summary": "胰次全切除，胰岛素依赖",
     "category": "general_urology"
   },
   {
-    "id": "3_33",
-    "code": "3_33",
+    "id": "3.33",
+    "code": "3.33",
     "grade": "三级",
     "summary": "一侧肾切除，对侧肾功能不全失代偿期",
     "category": "general_urology"
   },
   {
-    "id": "3_34",
-    "code": "3_34",
+    "id": "3.34",
+    "code": "3.34",
     "grade": "三级",
     "summary": "双侧输尿管狭窄，肾功能不全失代偿期",
     "category": "general_urology"
   },
   {
-    "id": "3_35",
-    "code": "3_35",
+    "id": "3.35",
+    "code": "3.35",
     "grade": "三级",
     "summary": "永久性输尿管腹壁造瘘",
     "category": "general_urology"
   },
   {
-    "id": "3_36",
-    "code": "3_36",
+    "id": "3.36",
+    "code": "3.36",
     "grade": "三级",
     "summary": "膀胱全切除",
     "category": "general_urology"
   },
   {
-    "id": "3_37",
-    "code": "3_37",
+    "id": "3.37",
+    "code": "3.37",
     "grade": "三级",
     "summary": "尘肺叁期",
     "category": "occupational"
   },
   {
-    "id": "3_38",
-    "code": "3_38",
+    "id": "3.38",
+    "code": "3.38",
     "grade": "三级",
     "summary": "尘肺贰期伴肺功能中度损伤及(或)中度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "3_39",
-    "code": "3_39",
+    "id": "3.39",
+    "code": "3.39",
     "grade": "三级",
     "summary": "尘肺贰期合并活动性肺结核",
     "category": "occupational"
   },
   {
-    "id": "3_40",
-    "code": "3_40",
+    "id": "3.40",
+    "code": "3.40",
     "grade": "三级",
     "summary": "放射性肺炎后两叶肺纤维化，伴肺功能中度损伤及(或)中度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "3_41",
-    "code": "3_41",
+    "id": "3.41",
+    "code": "3.41",
     "grade": "三级",
     "summary": "粒细胞缺乏症",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_42",
-    "code": "3_42",
+    "id": "3.42",
+    "code": "3.42",
     "grade": "三级",
     "summary": "再生障碍性贫血",
     "category": "occupational"
   },
   {
-    "id": "3_43",
-    "code": "3_43",
+    "id": "3.43",
+    "code": "3.43",
     "grade": "三级",
     "summary": "职业性慢性白血病",
     "category": "occupational"
   },
   {
-    "id": "3_44",
-    "code": "3_44",
+    "id": "3.44",
+    "code": "3.44",
     "grade": "三级",
     "summary": "中毒性血液病，骨髓增生异常综合征",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_45",
-    "code": "3_45",
+    "id": "3.45",
+    "code": "3.45",
     "grade": "三级",
     "summary": "中毒性血液病，严重出血或血小板含量≤2×10¹⁰/L",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_46",
-    "code": "3_46",
+    "id": "3.46",
+    "code": "3.46",
     "grade": "三级",
     "summary": "砷性皮肤癌",
     "category": "ortho_plastic"
   },
   {
-    "id": "3_47",
-    "code": "3_47",
+    "id": "3.47",
+    "code": "3.47",
     "grade": "三级",
     "summary": "放射性皮肤癌",
     "category": "occupational"
   },
   {
-    "id": "4_1",
-    "code": "4_1",
+    "id": "4.1",
+    "code": "4.1",
     "grade": "四级",
     "summary": "中度智能损伤",
     "category": "neuro_psych"
   },
   {
-    "id": "4_2",
-    "code": "4_2",
+    "id": "4.2",
+    "code": "4.2",
     "grade": "四级",
     "summary": "重度癫痫",
     "category": "neuro_psych"
   },
   {
-    "id": "4_3",
-    "code": "4_3",
+    "id": "4.3",
+    "code": "4.3",
     "grade": "四级",
     "summary": "精神病性症状，经系统治疗1年后仍缺乏社交能力者",
     "category": "neuro_psych"
   },
   {
-    "id": "4_4",
-    "code": "4_4",
+    "id": "4.4",
+    "code": "4.4",
     "grade": "四级",
     "summary": "单肢瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_5",
-    "code": "4_5",
+    "id": "4.5",
+    "code": "4.5",
     "grade": "四级",
     "summary": "双手部分肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_6",
-    "code": "4_6",
+    "id": "4.6",
+    "code": "4.6",
     "grade": "四级",
     "summary": "脑脊液漏伴有颅底骨缺损不能修复或反复手术失败",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_7",
-    "code": "4_7",
+    "id": "4.7",
+    "code": "4.7",
     "grade": "四级",
     "summary": "面部中度毁容",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_8",
-    "code": "4_8",
+    "id": "4.8",
+    "code": "4.8",
     "grade": "四级",
     "summary": "全身瘢痕面积≥60%，四肢大关节中1个关节活动功能受限",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_9",
-    "code": "4_9",
+    "id": "4.9",
+    "code": "4.9",
     "grade": "四级",
     "summary": "面部瘢痕或植皮≥1/2并有轻度毁容",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_10",
-    "code": "4_10",
+    "id": "4.10",
+    "code": "4.10",
     "grade": "四级",
     "summary": "双拇指完全缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_11",
-    "code": "4_11",
+    "id": "4.11",
+    "code": "4.11",
     "grade": "四级",
     "summary": "一侧手功能完全丧失，另一手部分功能丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_12",
-    "code": "4_12",
+    "id": "4.12",
+    "code": "4.12",
     "grade": "四级",
     "summary": "一侧肘上缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_13",
-    "code": "4_13",
+    "id": "4.13",
+    "code": "4.13",
     "grade": "四级",
     "summary": "一侧膝以下缺失，另一侧前足缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_14",
-    "code": "4_14",
+    "id": "4.14",
+    "code": "4.14",
     "grade": "四级",
     "summary": "一侧膝以上缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_15",
-    "code": "4_15",
+    "id": "4.15",
+    "code": "4.15",
     "grade": "四级",
     "summary": "一侧踝以下缺失，另一足畸形行走困难",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_16",
-    "code": "4_16",
+    "id": "4.16",
+    "code": "4.16",
     "grade": "四级",
-    "summary": "一眼有或无光感，另眼矫正视力<0.2 或视野≤32%(或半径≤20°)",
+    "summary": "一眼有或无光感，另眼矫正视力<0.2或视野≤32%(或半径≤20°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_17",
-    "code": "4_17",
+    "id": "4.17",
+    "code": "4.17",
     "grade": "四级",
     "summary": "一眼矫正视力<0.05，另眼矫正视力≤0.1",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_18",
-    "code": "4_18",
+    "id": "4.18",
+    "code": "4.18",
     "grade": "四级",
-    "summary": "双眼矫正视力<0.1 或视野≤32%(或半径≤20°)",
+    "summary": "双眼矫正视力<0.1或视野≤32%(或半径≤20°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_19",
-    "code": "4_19",
+    "id": "4.19",
+    "code": "4.19",
     "grade": "四级",
     "summary": "双耳听力损失≥91dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_20",
-    "code": "4_20",
+    "id": "4.20",
+    "code": "4.20",
     "grade": "四级",
     "summary": "牙关紧闭或因食管狭窄只能进流食",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_21",
-    "code": "4_21",
+    "id": "4.21",
+    "code": "4.21",
     "grade": "四级",
     "summary": "一侧上颌骨缺损1/2，伴颜面部软组织损伤>20cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_22",
-    "code": "4_22",
+    "id": "4.22",
+    "code": "4.22",
     "grade": "四级",
-    "summary": "下颌骨缺损长6cm 以上的区段，伴口腔、颜面软组织损伤>20cm²",
+    "summary": "下颌骨缺损长6cm以上的区段，伴口腔、颜面软组织损伤>20cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_23",
-    "code": "4_23",
+    "id": "4.23",
+    "code": "4.23",
     "grade": "四级",
     "summary": "双侧颞下颌关节骨性强直，完全不能张口",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_24",
-    "code": "4_24",
+    "id": "4.24",
+    "code": "4.24",
     "grade": "四级",
     "summary": "面颊部洞穿性缺损>20cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_25",
-    "code": "4_25",
+    "id": "4.25",
+    "code": "4.25",
     "grade": "四级",
     "summary": "双侧完全性面瘫",
     "category": "neuro_psych"
   },
   {
-    "id": "4_26",
-    "code": "4_26",
+    "id": "4.26",
+    "code": "4.26",
     "grade": "四级",
     "summary": "一侧全肺切除术",
     "category": "general_urology"
   },
   {
-    "id": "4_27",
-    "code": "4_27",
+    "id": "4.27",
+    "code": "4.27",
     "grade": "四级",
     "summary": "双侧肺叶切除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_28",
-    "code": "4_28",
+    "id": "4.28",
+    "code": "4.28",
     "grade": "四级",
     "summary": "肺叶切除后并胸廓成形术后",
     "category": "general_urology"
   },
   {
-    "id": "4_29",
-    "code": "4_29",
+    "id": "4.29",
+    "code": "4.29",
     "grade": "四级",
     "summary": "肺叶切除并隆凸切除成形术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_30",
-    "code": "4_30",
+    "id": "4.30",
+    "code": "4.30",
     "grade": "四级",
     "summary": "一侧肺移植术",
     "category": "general_urology"
   },
   {
-    "id": "4_31",
-    "code": "4_31",
+    "id": "4.31",
+    "code": "4.31",
     "grade": "四级",
     "summary": "心瓣膜置换术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_32",
-    "code": "4_32",
+    "id": "4.32",
+    "code": "4.32",
     "grade": "四级",
     "summary": "心功能不全二级",
     "category": "general_urology"
   },
   {
-    "id": "4_33",
-    "code": "4_33",
+    "id": "4.33",
+    "code": "4.33",
     "grade": "四级",
     "summary": "食管重建术后吻合口狭窄，仅能进流食者",
     "category": "general_urology"
   },
   {
-    "id": "4_34",
-    "code": "4_34",
+    "id": "4.34",
+    "code": "4.34",
     "grade": "四级",
     "summary": "全胃切除",
     "category": "general_urology"
   },
   {
-    "id": "4_35",
-    "code": "4_35",
+    "id": "4.35",
+    "code": "4.35",
     "grade": "四级",
     "summary": "胰头、十二指肠切除",
     "category": "general_urology"
   },
   {
-    "id": "4_36",
-    "code": "4_36",
+    "id": "4.36",
+    "code": "4.36",
     "grade": "四级",
     "summary": "小肠切除3/4",
     "category": "general_urology"
   },
   {
-    "id": "4_37",
-    "code": "4_37",
+    "id": "4.37",
+    "code": "4.37",
     "grade": "四级",
     "summary": "小肠切除2/3，包括回盲部切除",
     "category": "eye_ent_oral"
   },
   {
-    "id": "4_38",
-    "code": "4_38",
+    "id": "4.38",
+    "code": "4.38",
     "grade": "四级",
     "summary": "全结肠、直肠、肛门切除，回肠造瘘",
     "category": "general_urology"
   },
   {
-    "id": "4_39",
-    "code": "4_39",
+    "id": "4.39",
+    "code": "4.39",
     "grade": "四级",
     "summary": "外伤后肛门排便重度障碍或失禁",
     "category": "general_urology"
   },
   {
-    "id": "4_40",
-    "code": "4_40",
+    "id": "4.40",
+    "code": "4.40",
     "grade": "四级",
     "summary": "肝切除2/3",
     "category": "general_urology"
   },
   {
-    "id": "4_41",
-    "code": "4_41",
+    "id": "4.41",
+    "code": "4.41",
     "grade": "四级",
     "summary": "肝切除1/2，肝功能轻度损害",
     "category": "general_urology"
   },
   {
-    "id": "4_42",
-    "code": "4_42",
+    "id": "4.42",
+    "code": "4.42",
     "grade": "四级",
     "summary": "胆道损伤致肝功能中度损害",
     "category": "general_urology"
   },
   {
-    "id": "4_43",
-    "code": "4_43",
+    "id": "4.43",
+    "code": "4.43",
     "grade": "四级",
     "summary": "甲状旁腺功能重度损害",
     "category": "general_urology"
   },
   {
-    "id": "4_44",
-    "code": "4_44",
+    "id": "4.44",
+    "code": "4.44",
     "grade": "四级",
     "summary": "肾修补术后，肾功能不全失代偿期",
     "category": "general_urology"
   },
   {
-    "id": "4_45",
-    "code": "4_45",
+    "id": "4.45",
+    "code": "4.45",
     "grade": "四级",
     "summary": "输尿管修补术后，肾功能不全失代偿期",
     "category": "general_urology"
   },
   {
-    "id": "4_46",
-    "code": "4_46",
+    "id": "4.46",
+    "code": "4.46",
     "grade": "四级",
     "summary": "永久性膀胱造瘘",
     "category": "general_urology"
   },
   {
-    "id": "4_47",
-    "code": "4_47",
+    "id": "4.47",
+    "code": "4.47",
     "grade": "四级",
     "summary": "重度排尿障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_48",
-    "code": "4_48",
+    "id": "4.48",
+    "code": "4.48",
     "grade": "四级",
     "summary": "神经原性膀胱，残余尿≥50mL",
     "category": "general_urology"
   },
   {
-    "id": "4_49",
-    "code": "4_49",
+    "id": "4.49",
+    "code": "4.49",
     "grade": "四级",
     "summary": "双侧肾上腺缺损",
     "category": "general_urology"
   },
   {
-    "id": "4_50",
-    "code": "4_50",
+    "id": "4.50",
+    "code": "4.50",
     "grade": "四级",
     "summary": "尘肺贰期",
     "category": "occupational"
   },
   {
-    "id": "4_51",
-    "code": "4_51",
+    "id": "4.51",
+    "code": "4.51",
     "grade": "四级",
     "summary": "尘肺壹期伴肺功能中度损伤及(或)中度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "4_52",
-    "code": "4_52",
+    "id": "4.52",
+    "code": "4.52",
     "grade": "四级",
     "summary": "尘肺壹期伴活动性肺结核",
     "category": "occupational"
   },
   {
-    "id": "4_53",
-    "code": "4_53",
+    "id": "4.53",
+    "code": "4.53",
     "grade": "四级",
     "summary": "病态窦房结综合征(需安装起搏器者)",
     "category": "ortho_plastic"
   },
   {
-    "id": "4_54",
-    "code": "4_54",
+    "id": "4.54",
+    "code": "4.54",
     "grade": "四级",
     "summary": "放射性损伤致肾上腺皮质功能明显减退",
     "category": "occupational"
   },
   {
-    "id": "4_55",
-    "code": "4_55",
+    "id": "4.55",
+    "code": "4.55",
     "grade": "四级",
     "summary": "放射性损伤致免疫功能明显减退",
     "category": "occupational"
   },
   {
-    "id": "5_1",
-    "code": "5_1",
+    "id": "5.1",
+    "code": "5.1",
     "grade": "五级",
     "summary": "四肢瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_2",
-    "code": "5_2",
+    "id": "5.2",
+    "code": "5.2",
     "grade": "五级",
     "summary": "单肢瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_3",
-    "code": "5_3",
+    "id": "5.3",
+    "code": "5.3",
     "grade": "五级",
     "summary": "双手部分肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_4",
-    "code": "5_4",
+    "id": "5.4",
+    "code": "5.4",
     "grade": "五级",
     "summary": "一手全肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_5",
-    "code": "5_5",
+    "id": "5.5",
+    "code": "5.5",
     "grade": "五级",
     "summary": "双足全肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_6",
-    "code": "5_6",
+    "id": "5.6",
+    "code": "5.6",
     "grade": "五级",
     "summary": "完全运动性失语",
     "category": "neuro_psych"
   },
   {
-    "id": "5_7",
-    "code": "5_7",
+    "id": "5.7",
+    "code": "5.7",
     "grade": "五级",
     "summary": "完全性失用、失写、失读、失认等具有一项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_8",
-    "code": "5_8",
+    "id": "5.8",
+    "code": "5.8",
     "grade": "五级",
     "summary": "不完全性失用、失写、失读、失认等具有多项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_9",
-    "code": "5_9",
+    "id": "5.9",
+    "code": "5.9",
     "grade": "五级",
     "summary": "全身瘢痕占体表面积≥50%，并有关节活动功能受限",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_10",
-    "code": "5_10",
+    "id": "5.10",
+    "code": "5.10",
     "grade": "五级",
     "summary": "面部瘢痕或植皮≥1/3并有毁容标准中的一项",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_11",
-    "code": "5_11",
+    "id": "5.11",
+    "code": "5.11",
     "grade": "五级",
     "summary": "脊柱骨折后遗30°以上侧弯或后凸畸形，伴严重根性神经痛",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_12",
-    "code": "5_12",
+    "id": "5.12",
+    "code": "5.12",
     "grade": "五级",
     "summary": "一侧前臂缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_13",
-    "code": "5_13",
+    "id": "5.13",
+    "code": "5.13",
     "grade": "五级",
     "summary": "一手功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_14",
-    "code": "5_14",
+    "id": "5.14",
+    "code": "5.14",
     "grade": "五级",
     "summary": "肩、肘关节之一功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_15",
-    "code": "5_15",
+    "id": "5.15",
+    "code": "5.15",
     "grade": "五级",
     "summary": "一手拇指缺失，另一手除拇指外三指缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_16",
-    "code": "5_16",
+    "id": "5.16",
+    "code": "5.16",
     "grade": "五级",
     "summary": "一手拇指功能完全丧失，另一手除拇指外三指功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_17",
-    "code": "5_17",
+    "id": "5.17",
+    "code": "5.17",
     "grade": "五级",
     "summary": "双前足缺失或双前足瘢痕畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_18",
-    "code": "5_18",
+    "id": "5.18",
+    "code": "5.18",
     "grade": "五级",
     "summary": "双跟骨足底软组织缺损瘢痕形成，反复破溃",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_19",
-    "code": "5_19",
+    "id": "5.19",
+    "code": "5.19",
     "grade": "五级",
     "summary": "一髋(或一膝)功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_20",
-    "code": "5_20",
+    "id": "5.20",
+    "code": "5.20",
     "grade": "五级",
     "summary": "四肢大关节之一人工关节术后遗留重度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_21",
-    "code": "5_21",
+    "id": "5.21",
+    "code": "5.21",
     "grade": "五级",
     "summary": "一侧膝以下缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_22",
-    "code": "5_22",
+    "id": "5.22",
+    "code": "5.22",
     "grade": "五级",
     "summary": "第Ⅲ对脑神经麻痹",
     "category": "neuro_psych"
   },
   {
-    "id": "5_23",
-    "code": "5_23",
+    "id": "5.23",
+    "code": "5.23",
     "grade": "五级",
     "summary": "双眼外伤性青光眼术后，需用药物控制眼压者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_24",
-    "code": "5_24",
+    "id": "5.24",
+    "code": "5.24",
     "grade": "五级",
-    "summary": "一眼有或无光感，另眼矫正视力≤0.3 或视野≤40%(或半径≤25°)",
+    "summary": "一眼有或无光感，另眼矫正视力≤0.3或视野≤40%(或半径≤25°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_25",
-    "code": "5_25",
+    "id": "5.25",
+    "code": "5.25",
     "grade": "五级",
     "summary": "一眼矫正视力<0.05，另眼矫正视力≤0.2",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_26",
-    "code": "5_26",
+    "id": "5.26",
+    "code": "5.26",
     "grade": "五级",
     "summary": "一眼矫正视力<0.1，另眼矫正视力等于0.1",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_27",
-    "code": "5_27",
+    "id": "5.27",
+    "code": "5.27",
     "grade": "五级",
     "summary": "双眼视野≤40%(或半径≤25°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_28",
-    "code": "5_28",
+    "id": "5.28",
+    "code": "5.28",
     "grade": "五级",
     "summary": "双耳听力损失≥81dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_29",
-    "code": "5_29",
+    "id": "5.29",
+    "code": "5.29",
     "grade": "五级",
     "summary": "喉或气管损伤导致一般活动及轻工作时有呼吸困难",
     "category": "occupational"
   },
   {
-    "id": "5_30",
-    "code": "5_30",
+    "id": "5.30",
+    "code": "5.30",
     "grade": "五级",
     "summary": "吞咽困难，仅能进半流食",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_31",
-    "code": "5_31",
+    "id": "5.31",
+    "code": "5.31",
     "grade": "五级",
     "summary": "双侧喉返神经损伤，喉保护功能丧失致饮食呛咳、误吸",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_32",
-    "code": "5_32",
+    "id": "5.32",
+    "code": "5.32",
     "grade": "五级",
     "summary": "一侧上颌骨缺损>1/4，但<1/2，伴软组织损伤>10cm²，但<20cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_33",
-    "code": "5_33",
+    "id": "5.33",
+    "code": "5.33",
     "grade": "五级",
-    "summary": "下颌骨缺损长4cm 以上的区段，伴口腔、颜面软组织损伤>10cm²",
+    "summary": "下颌骨缺损长4cm以上的区段，伴口腔、颜面软组织损伤>10cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "5_34",
-    "code": "5_34",
+    "id": "5.34",
+    "code": "5.34",
     "grade": "五级",
     "summary": "一侧完全面瘫，另一侧不完全面瘫",
     "category": "neuro_psych"
   },
   {
-    "id": "5_35",
-    "code": "5_35",
+    "id": "5.35",
+    "code": "5.35",
     "grade": "五级",
     "summary": "双肺叶切除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_36",
-    "code": "5_36",
+    "id": "5.36",
+    "code": "5.36",
     "grade": "五级",
     "summary": "肺叶切除术并大血管重建术",
     "category": "general_urology"
   },
   {
-    "id": "5_37",
-    "code": "5_37",
+    "id": "5.37",
+    "code": "5.37",
     "grade": "五级",
     "summary": "隆凸切除成形术",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_38",
-    "code": "5_38",
+    "id": "5.38",
+    "code": "5.38",
     "grade": "五级",
     "summary": "食管重建术后吻合口狭窄，仅能进半流食者",
     "category": "general_urology"
   },
   {
-    "id": "5_39",
-    "code": "5_39",
+    "id": "5.39",
+    "code": "5.39",
     "grade": "五级",
     "summary": "食管气管或支气管瘘",
     "category": "general_urology"
   },
   {
-    "id": "5_40",
-    "code": "5_40",
+    "id": "5.40",
+    "code": "5.40",
     "grade": "五级",
     "summary": "食管胸膜瘘",
     "category": "general_urology"
   },
   {
-    "id": "5_41",
-    "code": "5_41",
+    "id": "5.41",
+    "code": "5.41",
     "grade": "五级",
     "summary": "胃切除3/4",
     "category": "general_urology"
   },
   {
-    "id": "5_42",
-    "code": "5_42",
+    "id": "5.42",
+    "code": "5.42",
     "grade": "五级",
     "summary": "小肠切除2/3，包括回肠大部分",
     "category": "general_urology"
   },
   {
-    "id": "5_43",
-    "code": "5_43",
+    "id": "5.43",
+    "code": "5.43",
     "grade": "五级",
     "summary": "肛门、直肠、结肠部分切除，结肠造瘘",
     "category": "general_urology"
   },
   {
-    "id": "5_44",
-    "code": "5_44",
+    "id": "5.44",
+    "code": "5.44",
     "grade": "五级",
     "summary": "肝切除1/2",
     "category": "general_urology"
   },
   {
-    "id": "5_45",
-    "code": "5_45",
+    "id": "5.45",
+    "code": "5.45",
     "grade": "五级",
     "summary": "胰切除2/3",
     "category": "general_urology"
   },
   {
-    "id": "5_46",
-    "code": "5_46",
+    "id": "5.46",
+    "code": "5.46",
     "grade": "五级",
     "summary": "甲状腺功能重度损害",
     "category": "general_urology"
   },
   {
-    "id": "5_47",
-    "code": "5_47",
+    "id": "5.47",
+    "code": "5.47",
     "grade": "五级",
     "summary": "一侧肾切除，对侧肾功能不全代偿期",
     "category": "general_urology"
   },
   {
-    "id": "5_48",
-    "code": "5_48",
+    "id": "5.48",
+    "code": "5.48",
     "grade": "五级",
     "summary": "一侧输尿管狭窄，肾功能不全代偿期",
     "category": "general_urology"
   },
   {
-    "id": "5_49",
-    "code": "5_49",
+    "id": "5.49",
+    "code": "5.49",
     "grade": "五级",
     "summary": "尿道瘘不能修复者",
     "category": "general_urology"
   },
   {
-    "id": "5_50",
-    "code": "5_50",
+    "id": "5.50",
+    "code": "5.50",
     "grade": "五级",
     "summary": "两侧睾丸、附睾缺损",
     "category": "general_urology"
   },
   {
-    "id": "5_51",
-    "code": "5_51",
+    "id": "5.51",
+    "code": "5.51",
     "grade": "五级",
     "summary": "放射性损伤致生殖功能重度损伤",
     "category": "occupational"
   },
   {
-    "id": "5_52",
-    "code": "5_52",
+    "id": "5.52",
+    "code": "5.52",
     "grade": "五级",
     "summary": "阴茎全缺损",
     "category": "general_urology"
   },
   {
-    "id": "5_53",
-    "code": "5_53",
+    "id": "5.53",
+    "code": "5.53",
     "grade": "五级",
     "summary": "双侧卵巢切除",
     "category": "general_urology"
   },
   {
-    "id": "5_54",
-    "code": "5_54",
+    "id": "5.54",
+    "code": "5.54",
     "grade": "五级",
     "summary": "阴道闭锁",
     "category": "general_urology"
   },
   {
-    "id": "5_55",
-    "code": "5_55",
+    "id": "5.55",
+    "code": "5.55",
     "grade": "五级",
     "summary": "会阴部瘢痕孪缩伴有阴道或尿道或肛门狭窄",
     "category": "general_urology"
   },
   {
-    "id": "5_56",
-    "code": "5_56",
+    "id": "5.56",
+    "code": "5.56",
     "grade": "五级",
     "summary": "肺功能中度损伤或中度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "5_57",
-    "code": "5_57",
+    "id": "5.57",
+    "code": "5.57",
     "grade": "五级",
     "summary": "莫氏Ⅱ型Ⅱ度房室传导阻滞",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_58",
-    "code": "5_58",
+    "id": "5.58",
+    "code": "5.58",
     "grade": "五级",
     "summary": "病态窦房结综合征(不需安起博器者)",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_59",
-    "code": "5_59",
+    "id": "5.59",
+    "code": "5.59",
     "grade": "五级",
     "summary": "中毒性血液病，血小板减少(≤4×10¹⁰/L)并有出血倾向",
     "category": "occupational"
   },
   {
-    "id": "5_60",
-    "code": "5_60",
+    "id": "5.60",
+    "code": "5.60",
     "grade": "五级",
     "summary": "中毒性血液病，白细胞含量持续<3×10⁹/L(<3000/mm³)或粒细胞含量<1.5×10⁹/L(1500/mm³)",
     "category": "ortho_plastic"
   },
   {
-    "id": "5_61",
-    "code": "5_61",
+    "id": "5.61",
+    "code": "5.61",
     "grade": "五级",
     "summary": "慢性中度中毒性肝病",
     "category": "occupational"
   },
   {
-    "id": "5_62",
-    "code": "5_62",
+    "id": "5.62",
+    "code": "5.62",
     "grade": "五级",
     "summary": "肾功能不全失代偿期，内生肌酐清除率持续<50mL/min，或血浆肌酐水平持续>177μmol/L(2mg/dL)",
     "category": "general_urology"
   },
   {
-    "id": "5_63",
-    "code": "5_63",
+    "id": "5.63",
+    "code": "5.63",
     "grade": "五级",
     "summary": "放射性损伤致睾丸萎缩",
     "category": "occupational"
   },
   {
-    "id": "5_64",
-    "code": "5_64",
+    "id": "5.64",
+    "code": "5.64",
     "grade": "五级",
     "summary": "慢性重度磷中毒",
     "category": "occupational"
   },
   {
-    "id": "5_65",
-    "code": "5_65",
+    "id": "5.65",
+    "code": "5.65",
     "grade": "五级",
     "summary": "重度手臂振动病",
     "category": "occupational"
   },
   {
-    "id": "6_1",
-    "code": "6_1",
+    "id": "6.1",
+    "code": "6.1",
     "grade": "六级",
     "summary": "癫痫中度",
     "category": "neuro_psych"
   },
   {
-    "id": "6_2",
-    "code": "6_2",
+    "id": "6.2",
+    "code": "6.2",
     "grade": "六级",
     "summary": "轻度智能损伤",
     "category": "neuro_psych"
   },
   {
-    "id": "6_3",
-    "code": "6_3",
+    "id": "6.3",
+    "code": "6.3",
     "grade": "六级",
     "summary": "精神病性症状，经系统治疗1年后仍影响职业劳动能力者",
     "category": "neuro_psych"
   },
   {
-    "id": "6_4",
-    "code": "6_4",
+    "id": "6.4",
+    "code": "6.4",
     "grade": "六级",
     "summary": "三肢瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_5",
-    "code": "6_5",
+    "id": "6.5",
+    "code": "6.5",
     "grade": "六级",
     "summary": "截瘫双下肢肌力4级伴轻度排尿障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_6",
-    "code": "6_6",
+    "id": "6.6",
+    "code": "6.6",
     "grade": "六级",
     "summary": "双手全肌瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_7",
-    "code": "6_7",
+    "id": "6.7",
+    "code": "6.7",
     "grade": "六级",
     "summary": "一手全肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_8",
-    "code": "6_8",
+    "id": "6.8",
+    "code": "6.8",
     "grade": "六级",
     "summary": "双足部分肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_9",
-    "code": "6_9",
+    "id": "6.9",
+    "code": "6.9",
     "grade": "六级",
     "summary": "单足全肌瘫肌力≤2级",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_10",
-    "code": "6_10",
+    "id": "6.10",
+    "code": "6.10",
     "grade": "六级",
     "summary": "轻度非肢体瘫运动障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "6_11",
-    "code": "6_11",
+    "id": "6.11",
+    "code": "6.11",
     "grade": "六级",
     "summary": "不完全性感觉性失语",
     "category": "neuro_psych"
   },
   {
-    "id": "6_12",
-    "code": "6_12",
+    "id": "6.12",
+    "code": "6.12",
     "grade": "六级",
     "summary": "面部重度异物色素沉着或脱失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_13",
-    "code": "6_13",
+    "id": "6.13",
+    "code": "6.13",
     "grade": "六级",
     "summary": "面部瘢痕或植皮≥1/3",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_14",
-    "code": "6_14",
+    "id": "6.14",
+    "code": "6.14",
     "grade": "六级",
     "summary": "全身瘢痕面积≥40%",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_15",
-    "code": "6_15",
+    "id": "6.15",
+    "code": "6.15",
     "grade": "六级",
     "summary": "撕脱伤后头皮缺失1/5以上",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_16",
-    "code": "6_16",
+    "id": "6.16",
+    "code": "6.16",
     "grade": "六级",
     "summary": "一手一拇指完全缺失，连同另一手非拇指二指缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_17",
-    "code": "6_17",
+    "id": "6.17",
+    "code": "6.17",
     "grade": "六级",
     "summary": "一拇指功能完全丧失，另一手除拇指外有二指功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_18",
-    "code": "6_18",
+    "id": "6.18",
+    "code": "6.18",
     "grade": "六级",
     "summary": "一手三指(含拇指)缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_19",
-    "code": "6_19",
+    "id": "6.19",
+    "code": "6.19",
     "grade": "六级",
     "summary": "除拇指外其余四指缺失或功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_20",
-    "code": "6_20",
+    "id": "6.20",
+    "code": "6.20",
     "grade": "六级",
     "summary": "一侧踝以下缺失；或踝关节畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_21",
-    "code": "6_21",
+    "id": "6.21",
+    "code": "6.21",
     "grade": "六级",
-    "summary": "下肢骨折成角畸形>15°，并有肢体短缩4cm 以上",
+    "summary": "下肢骨折成角畸形>15°，并有肢体短缩4cm以上",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_22",
-    "code": "6_22",
+    "id": "6.22",
+    "code": "6.22",
     "grade": "六级",
     "summary": "一前足缺失，另一足仅残留拇趾",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_23",
-    "code": "6_23",
+    "id": "6.23",
+    "code": "6.23",
     "grade": "六级",
-    "summary": "一前足缺失，另一足除拇趾外， 2～5 趾畸形，功能完全丧失",
+    "summary": "一前足缺失，另一足除拇趾外，2～5趾畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_24",
-    "code": "6_24",
+    "id": "6.24",
+    "code": "6.24",
     "grade": "六级",
     "summary": "一足功能完全丧失，另一足部分功能丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_25",
-    "code": "6_25",
+    "id": "6.25",
+    "code": "6.25",
     "grade": "六级",
     "summary": "一髋或一膝关节功能重度障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_26",
-    "code": "6_26",
+    "id": "6.26",
+    "code": "6.26",
     "grade": "六级",
     "summary": "单侧跟骨足底软组织缺损瘢痕形成，反复破溃",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_27",
-    "code": "6_27",
+    "id": "6.27",
+    "code": "6.27",
     "grade": "六级",
     "summary": "一侧眼球摘除；或一侧眼球明显萎缩，无光感",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_28",
-    "code": "6_28",
+    "id": "6.28",
+    "code": "6.28",
     "grade": "六级",
     "summary": "一眼有或无光感，另一眼矫正视力≥0.4",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_29",
-    "code": "6_29",
+    "id": "6.29",
+    "code": "6.29",
     "grade": "六级",
     "summary": "一眼矫正视力≤0.05，另一眼矫正视力≥0.3",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_30",
-    "code": "6_30",
+    "id": "6.30",
+    "code": "6.30",
     "grade": "六级",
     "summary": "一眼矫正视力≤0.1，另一眼矫正视力≥0.2",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_31",
-    "code": "6_31",
+    "id": "6.31",
+    "code": "6.31",
     "grade": "六级",
-    "summary": "双眼矫正视力≤0.2 或视野≤48%(或半径≤30°)",
+    "summary": "双眼矫正视力≤0.2或视野≤48%(或半径≤30°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_32",
-    "code": "6_32",
+    "id": "6.32",
+    "code": "6.32",
     "grade": "六级",
-    "summary": "第Ⅳ或第 Ⅵ 对脑神经麻痹，或眼外肌损伤致复视的",
+    "summary": "第Ⅳ或第Ⅵ对脑神经麻痹，或眼外肌损伤致复视的",
     "category": "neuro_psych"
   },
   {
-    "id": "6_33",
-    "code": "6_33",
+    "id": "6.33",
+    "code": "6.33",
     "grade": "六级",
     "summary": "双耳听力损失≥71dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_34",
-    "code": "6_34",
+    "id": "6.34",
+    "code": "6.34",
     "grade": "六级",
     "summary": "双侧前庭功能丧失，睁眼行走困难，不能并足站立",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_35",
-    "code": "6_35",
+    "id": "6.35",
+    "code": "6.35",
     "grade": "六级",
     "summary": "单侧或双侧颞下颌关节强直，张口困难Ⅲ度",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_36",
-    "code": "6_36",
+    "id": "6.36",
+    "code": "6.36",
     "grade": "六级",
     "summary": "一侧上颌骨缺损1/4，伴口腔颜面软组织损伤>10cm²",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_37",
-    "code": "6_37",
+    "id": "6.37",
+    "code": "6.37",
     "grade": "六级",
     "summary": "面部软组织缺损>20cm²，伴发涎瘘",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_38",
-    "code": "6_38",
+    "id": "6.38",
+    "code": "6.38",
     "grade": "六级",
     "summary": "舌缺损>舌的1/3，但<舌的2/3",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_39",
-    "code": "6_39",
+    "id": "6.39",
+    "code": "6.39",
     "grade": "六级",
     "summary": "双侧颧骨并颧弓骨折，伴有开口困难Ⅱ度以上及颜面部畸形经手术复位者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_40",
-    "code": "6_40",
+    "id": "6.40",
+    "code": "6.40",
     "grade": "六级",
     "summary": "双侧下颌骨髁状突颈部骨折，伴有开口困难Ⅱ度以上及咬合关系改变，经手术治疗者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_41",
-    "code": "6_41",
+    "id": "6.41",
+    "code": "6.41",
     "grade": "六级",
     "summary": "一侧完全性面瘫",
     "category": "neuro_psych"
   },
   {
-    "id": "6_42",
-    "code": "6_42",
+    "id": "6.42",
+    "code": "6.42",
     "grade": "六级",
     "summary": "肺叶切除并肺段或楔形切除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_43",
-    "code": "6_43",
+    "id": "6.43",
+    "code": "6.43",
     "grade": "六级",
     "summary": "肺叶切除并支气管成形术后",
     "category": "general_urology"
   },
   {
-    "id": "6_44",
-    "code": "6_44",
+    "id": "6.44",
+    "code": "6.44",
     "grade": "六级",
     "summary": "支气管(或气管)胸膜瘘",
     "category": "general_urology"
   },
   {
-    "id": "6_45",
-    "code": "6_45",
+    "id": "6.45",
+    "code": "6.45",
     "grade": "六级",
     "summary": "冠状动脉旁路移植术",
     "category": "general_urology"
   },
   {
-    "id": "6_46",
-    "code": "6_46",
+    "id": "6.46",
+    "code": "6.46",
     "grade": "六级",
     "summary": "大血管重建术",
     "category": "general_urology"
   },
   {
-    "id": "6_47",
-    "code": "6_47",
+    "id": "6.47",
+    "code": "6.47",
     "grade": "六级",
     "summary": "胃切除2/3",
     "category": "general_urology"
   },
   {
-    "id": "6_48",
-    "code": "6_48",
+    "id": "6.48",
+    "code": "6.48",
     "grade": "六级",
     "summary": "小肠切除1/2，包括回盲部",
     "category": "eye_ent_oral"
   },
   {
-    "id": "6_49",
-    "code": "6_49",
+    "id": "6.49",
+    "code": "6.49",
     "grade": "六级",
     "summary": "肛门外伤后排便轻度障碍或失禁",
     "category": "general_urology"
   },
   {
-    "id": "6_50",
-    "code": "6_50",
+    "id": "6.50",
+    "code": "6.50",
     "grade": "六级",
     "summary": "肝切除1/3",
     "category": "general_urology"
   },
   {
-    "id": "6_51",
-    "code": "6_51",
+    "id": "6.51",
+    "code": "6.51",
     "grade": "六级",
     "summary": "胆道损伤致肝功能轻度损伤",
     "category": "general_urology"
   },
   {
-    "id": "6_52",
-    "code": "6_52",
+    "id": "6.52",
+    "code": "6.52",
     "grade": "六级",
     "summary": "腹壁缺损面积≥腹壁的1/4",
     "category": "general_urology"
   },
   {
-    "id": "6_53",
-    "code": "6_53",
+    "id": "6.53",
+    "code": "6.53",
     "grade": "六级",
     "summary": "胰切除1/2",
     "category": "general_urology"
   },
   {
-    "id": "6_54",
-    "code": "6_54",
+    "id": "6.54",
+    "code": "6.54",
     "grade": "六级",
     "summary": "甲状腺功能中度损害",
     "category": "general_urology"
   },
   {
-    "id": "6_55",
-    "code": "6_55",
+    "id": "6.55",
+    "code": "6.55",
     "grade": "六级",
     "summary": "甲状旁腺功能中度损害",
     "category": "general_urology"
   },
   {
-    "id": "6_56",
-    "code": "6_56",
+    "id": "6.56",
+    "code": "6.56",
     "grade": "六级",
     "summary": "肾损伤性高血压",
     "category": "general_urology"
   },
   {
-    "id": "6_57",
-    "code": "6_57",
+    "id": "6.57",
+    "code": "6.57",
     "grade": "六级",
     "summary": "尿道狭窄经系统治疗1年后仍需定期行扩张术",
     "category": "general_urology"
   },
   {
-    "id": "6_58",
-    "code": "6_58",
+    "id": "6.58",
+    "code": "6.58",
     "grade": "六级",
     "summary": "膀胱部分切除合并轻度排尿障碍",
     "category": "general_urology"
   },
   {
-    "id": "6_59",
-    "code": "6_59",
+    "id": "6.59",
+    "code": "6.59",
     "grade": "六级",
     "summary": "两侧睾丸创伤后萎缩，血睾酮低于正常值",
     "category": "general_urology"
   },
   {
-    "id": "6_60",
-    "code": "6_60",
+    "id": "6.60",
+    "code": "6.60",
     "grade": "六级",
     "summary": "放射性损伤致生殖功能轻度损伤",
     "category": "occupational"
   },
   {
-    "id": "6_61",
-    "code": "6_61",
+    "id": "6.61",
+    "code": "6.61",
     "grade": "六级",
     "summary": "双侧输精管缺损，不能修复",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_62",
-    "code": "6_62",
+    "id": "6.62",
+    "code": "6.62",
     "grade": "六级",
     "summary": "阴茎部分缺损",
     "category": "general_urology"
   },
   {
-    "id": "6_63",
-    "code": "6_63",
+    "id": "6.63",
+    "code": "6.63",
     "grade": "六级",
     "summary": "女性双侧乳房切除或严重瘢痕畸形",
     "category": "ortho_plastic"
   },
   {
-    "id": "6_64",
-    "code": "6_64",
+    "id": "6.64",
+    "code": "6.64",
     "grade": "六级",
     "summary": "子宫切除",
     "category": "general_urology"
   },
   {
-    "id": "6_65",
-    "code": "6_65",
+    "id": "6.65",
+    "code": "6.65",
     "grade": "六级",
     "summary": "双侧输卵管切除",
     "category": "general_urology"
   },
   {
-    "id": "6_66",
-    "code": "6_66",
+    "id": "6.66",
+    "code": "6.66",
     "grade": "六级",
     "summary": "尘肺壹期伴肺功能轻度损伤及(或)轻度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "6_67",
-    "code": "6_67",
+    "id": "6.67",
+    "code": "6.67",
     "grade": "六级",
     "summary": "放射性肺炎后肺纤维化(<两叶)，伴肺功能轻度损伤及(或)轻度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "6_68",
-    "code": "6_68",
+    "id": "6.68",
+    "code": "6.68",
     "grade": "六级",
     "summary": "其他职业性肺部疾患，伴肺功能轻度损伤",
     "category": "occupational"
   },
   {
-    "id": "6_69",
-    "code": "6_69",
+    "id": "6.69",
+    "code": "6.69",
     "grade": "六级",
     "summary": "白血病完全缓解",
     "category": "occupational"
   },
   {
-    "id": "6_70",
-    "code": "6_70",
+    "id": "6.70",
+    "code": "6.70",
     "grade": "六级",
     "summary": "中毒性肾病，持续性低分子蛋白尿伴白蛋白尿",
     "category": "general_urology"
   },
   {
-    "id": "6_71",
-    "code": "6_71",
+    "id": "6.71",
+    "code": "6.71",
     "grade": "六级",
     "summary": "中毒性肾病，肾小管浓缩功能减退",
     "category": "general_urology"
   },
   {
-    "id": "6_72",
-    "code": "6_72",
+    "id": "6.72",
+    "code": "6.72",
     "grade": "六级",
     "summary": "放射性损伤致肾上腺皮质功能轻度减退",
     "category": "occupational"
   },
   {
-    "id": "6_73",
-    "code": "6_73",
+    "id": "6.73",
+    "code": "6.73",
     "grade": "六级",
     "summary": "放射性损伤致甲状腺功能低下",
     "category": "occupational"
   },
   {
-    "id": "6_74",
-    "code": "6_74",
+    "id": "6.74",
+    "code": "6.74",
     "grade": "六级",
     "summary": "减压性骨坏死Ⅲ期",
     "category": "occupational"
   },
   {
-    "id": "6_75",
-    "code": "6_75",
+    "id": "6.75",
+    "code": "6.75",
     "grade": "六级",
     "summary": "中度手臂振动病",
     "category": "occupational"
   },
   {
-    "id": "6_76",
-    "code": "6_76",
+    "id": "6.76",
+    "code": "6.76",
     "grade": "六级",
     "summary": "氟及其无机化合物中毒慢性重度中毒",
     "category": "occupational"
   },
   {
-    "id": "7_1",
-    "code": "7_1",
+    "id": "7.1",
+    "code": "7.1",
     "grade": "七级",
     "summary": "偏瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_2",
-    "code": "7_2",
+    "id": "7.2",
+    "code": "7.2",
     "grade": "七级",
     "summary": "截瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_3",
-    "code": "7_3",
+    "id": "7.3",
+    "code": "7.3",
     "grade": "七级",
     "summary": "单手部分肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_4",
-    "code": "7_4",
+    "id": "7.4",
+    "code": "7.4",
     "grade": "七级",
     "summary": "双足部分肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_5",
-    "code": "7_5",
+    "id": "7.5",
+    "code": "7.5",
     "grade": "七级",
     "summary": "单足全肌瘫肌力3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_6",
-    "code": "7_6",
+    "id": "7.6",
+    "code": "7.6",
     "grade": "七级",
     "summary": "中毒性周围神经病致深感觉障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "7_7",
-    "code": "7_7",
+    "id": "7.7",
+    "code": "7.7",
     "grade": "七级",
     "summary": "人格改变或边缘智能，经系统治疗1年后仍存在明显社会功能受损者",
     "category": "neuro_psych"
   },
   {
-    "id": "7_8",
-    "code": "7_8",
+    "id": "7.8",
+    "code": "7.8",
     "grade": "七级",
     "summary": "不完全性运动性失语",
     "category": "neuro_psych"
   },
   {
-    "id": "7_9",
-    "code": "7_9",
+    "id": "7.9",
+    "code": "7.9",
     "grade": "七级",
     "summary": "不完全性失用、失写、失读和失认等具有一项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_10",
-    "code": "7_10",
+    "id": "7.10",
+    "code": "7.10",
     "grade": "七级",
     "summary": "符合重度毁容标准中的两项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_11",
-    "code": "7_11",
+    "id": "7.11",
+    "code": "7.11",
     "grade": "七级",
     "summary": "烧伤后颅骨全层缺损≥30cm²，或在硬脑膜上植皮面积≥10cm²",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_12",
-    "code": "7_12",
+    "id": "7.12",
+    "code": "7.12",
     "grade": "七级",
     "summary": "颈部瘢痕挛缩，影响颈部活动",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_13",
-    "code": "7_13",
+    "id": "7.13",
+    "code": "7.13",
     "grade": "七级",
     "summary": "全身瘢痕面积≥30%",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_14",
-    "code": "7_14",
+    "id": "7.14",
+    "code": "7.14",
     "grade": "七级",
     "summary": "面部瘢痕、异物或植皮伴色素改变占面部的10%以上",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_15",
-    "code": "7_15",
+    "id": "7.15",
+    "code": "7.15",
     "grade": "七级",
     "summary": "骨盆骨折内固定术后，骨盆环不稳定，骶髂关节分离",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_16",
-    "code": "7_16",
+    "id": "7.16",
+    "code": "7.16",
     "grade": "七级",
-    "summary": "一手除拇指外，其他2～3 指(含食指)近侧指间关节离断",
+    "summary": "一手除拇指外，其他2～3指(含食指)近侧指间关节离断",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_17",
-    "code": "7_17",
+    "id": "7.17",
+    "code": "7.17",
     "grade": "七级",
-    "summary": "一手除拇指外，其他2～3 指(含食指)近侧指间关节功能完全丧失",
+    "summary": "一手除拇指外，其他2～3指(含食指)近侧指间关节功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_18",
-    "code": "7_18",
+    "id": "7.18",
+    "code": "7.18",
     "grade": "七级",
     "summary": "肩、肘关节之一损伤后遗留关节重度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_19",
-    "code": "7_19",
+    "id": "7.19",
+    "code": "7.19",
     "grade": "七级",
     "summary": "一腕关节功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_20",
-    "code": "7_20",
+    "id": "7.20",
+    "code": "7.20",
     "grade": "七级",
-    "summary": "一足1～5 趾缺失",
+    "summary": "一足1～5趾缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_21",
-    "code": "7_21",
+    "id": "7.21",
+    "code": "7.21",
     "grade": "七级",
     "summary": "一前足缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_22",
-    "code": "7_22",
+    "id": "7.22",
+    "code": "7.22",
     "grade": "七级",
     "summary": "四肢大关节之一人工关节术后，基本能生活自理",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_23",
-    "code": "7_23",
+    "id": "7.23",
+    "code": "7.23",
     "grade": "七级",
     "summary": "四肢大关节之一关节内骨折导致创伤性关节炎，遗留中重度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_24",
-    "code": "7_24",
+    "id": "7.24",
+    "code": "7.24",
     "grade": "七级",
-    "summary": "下肢伤后短缩>2cm，但≤4cm 者",
+    "summary": "下肢伤后短缩>2cm，但≤4cm者",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_25",
-    "code": "7_25",
+    "id": "7.25",
+    "code": "7.25",
     "grade": "七级",
     "summary": "膝关节韧带损伤术后关节不稳定，伸屈功能正常者",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_26",
-    "code": "7_26",
+    "id": "7.26",
+    "code": "7.26",
     "grade": "七级",
     "summary": "一眼有或无光感，另眼矫正视力≥0.8",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_27",
-    "code": "7_27",
+    "id": "7.27",
+    "code": "7.27",
     "grade": "七级",
     "summary": "一眼有或无光感，另一眼各种客观检查正常",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_28",
-    "code": "7_28",
+    "id": "7.28",
+    "code": "7.28",
     "grade": "七级",
     "summary": "一眼矫正视力≤0.05，另眼矫正视力≥0.6",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_29",
-    "code": "7_29",
+    "id": "7.29",
+    "code": "7.29",
     "grade": "七级",
     "summary": "一眼矫正视力≤0.1，另眼矫正视力≥0.4",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_30",
-    "code": "7_30",
+    "id": "7.30",
+    "code": "7.30",
     "grade": "七级",
-    "summary": "双眼矫正视力≤0.3 或视野≤64%(或半径≤40°)",
+    "summary": "双眼矫正视力≤0.3或视野≤64%(或半径≤40°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_31",
-    "code": "7_31",
+    "id": "7.31",
+    "code": "7.31",
     "grade": "七级",
     "summary": "单眼外伤性青光眼术后，需用药物控制眼压者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_32",
-    "code": "7_32",
+    "id": "7.32",
+    "code": "7.32",
     "grade": "七级",
     "summary": "双耳听力损失≥56dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_33",
-    "code": "7_33",
+    "id": "7.33",
+    "code": "7.33",
     "grade": "七级",
     "summary": "咽成形术后，咽下运动不正常",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_34",
-    "code": "7_34",
+    "id": "7.34",
+    "code": "7.34",
     "grade": "七级",
     "summary": "牙槽骨损伤长度≥8cm，牙齿脱落10个及以上",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_35",
-    "code": "7_35",
+    "id": "7.35",
+    "code": "7.35",
     "grade": "七级",
     "summary": "单侧颧骨并颧弓骨折，伴有开口困难Ⅱ度以上及颜面部畸形经手术复位者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "7_36",
-    "code": "7_36",
+    "id": "7.36",
+    "code": "7.36",
     "grade": "七级",
     "summary": "双侧不完全性面瘫",
     "category": "neuro_psych"
   },
   {
-    "id": "7_37",
-    "code": "7_37",
+    "id": "7.37",
+    "code": "7.37",
     "grade": "七级",
     "summary": "肺叶切除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_38",
-    "code": "7_38",
+    "id": "7.38",
+    "code": "7.38",
     "grade": "七级",
     "summary": "限局性脓胸行部分胸廓成形术",
     "category": "general_urology"
   },
   {
-    "id": "7_39",
-    "code": "7_39",
+    "id": "7.39",
+    "code": "7.39",
     "grade": "七级",
     "summary": "气管部分切除术",
     "category": "general_urology"
   },
   {
-    "id": "7_40",
-    "code": "7_40",
+    "id": "7.40",
+    "code": "7.40",
     "grade": "七级",
     "summary": "食管重建术后伴反流性食管炎",
     "category": "general_urology"
   },
   {
-    "id": "7_41",
-    "code": "7_41",
+    "id": "7.41",
+    "code": "7.41",
     "grade": "七级",
     "summary": "食管外伤或成形术后咽下运动不正常",
     "category": "general_urology"
   },
   {
-    "id": "7_42",
-    "code": "7_42",
+    "id": "7.42",
+    "code": "7.42",
     "grade": "七级",
     "summary": "胃切除1/2",
     "category": "general_urology"
   },
   {
-    "id": "7_43",
-    "code": "7_43",
+    "id": "7.43",
+    "code": "7.43",
     "grade": "七级",
     "summary": "小肠切除1/2",
     "category": "general_urology"
   },
   {
-    "id": "7_44",
-    "code": "7_44",
+    "id": "7.44",
+    "code": "7.44",
     "grade": "七级",
     "summary": "结肠大部分切除",
     "category": "general_urology"
   },
   {
-    "id": "7_45",
-    "code": "7_45",
+    "id": "7.45",
+    "code": "7.45",
     "grade": "七级",
     "summary": "肝切除1/4",
     "category": "general_urology"
   },
   {
-    "id": "7_46",
-    "code": "7_46",
+    "id": "7.46",
+    "code": "7.46",
     "grade": "七级",
     "summary": "胆道损伤，胆肠吻合术后",
     "category": "general_urology"
   },
   {
-    "id": "7_47",
-    "code": "7_47",
+    "id": "7.47",
+    "code": "7.47",
     "grade": "七级",
     "summary": "脾切除",
     "category": "general_urology"
   },
   {
-    "id": "7_48",
-    "code": "7_48",
+    "id": "7.48",
+    "code": "7.48",
     "grade": "七级",
     "summary": "胰切除1/3",
     "category": "general_urology"
   },
   {
-    "id": "7_49",
-    "code": "7_49",
+    "id": "7.49",
+    "code": "7.49",
     "grade": "七级",
     "summary": "女性两侧乳房部分缺损",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_50",
-    "code": "7_50",
+    "id": "7.50",
+    "code": "7.50",
     "grade": "七级",
     "summary": "一侧肾切除",
     "category": "general_urology"
   },
   {
-    "id": "7_51",
-    "code": "7_51",
+    "id": "7.51",
+    "code": "7.51",
     "grade": "七级",
     "summary": "膀胱部分切除",
     "category": "general_urology"
   },
   {
-    "id": "7_52",
-    "code": "7_52",
+    "id": "7.52",
+    "code": "7.52",
     "grade": "七级",
     "summary": "轻度排尿障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_53",
-    "code": "7_53",
+    "id": "7.53",
+    "code": "7.53",
     "grade": "七级",
     "summary": "阴道狭窄",
     "category": "general_urology"
   },
   {
-    "id": "7_54",
-    "code": "7_54",
+    "id": "7.54",
+    "code": "7.54",
     "grade": "七级",
     "summary": "尘肺壹期，肺功能正常",
     "category": "occupational"
   },
   {
-    "id": "7_55",
-    "code": "7_55",
+    "id": "7.55",
+    "code": "7.55",
     "grade": "七级",
     "summary": "放射性肺炎后肺纤维化(<两叶)，肺功能正常",
     "category": "occupational"
   },
   {
-    "id": "7_56",
-    "code": "7_56",
+    "id": "7.56",
+    "code": "7.56",
     "grade": "七级",
     "summary": "轻度低氧血症",
     "category": "occupational"
   },
   {
-    "id": "7_57",
-    "code": "7_57",
+    "id": "7.57",
+    "code": "7.57",
     "grade": "七级",
     "summary": "心功能不全一级",
     "category": "general_urology"
   },
   {
-    "id": "7_58",
-    "code": "7_58",
+    "id": "7.58",
+    "code": "7.58",
     "grade": "七级",
     "summary": "再生障碍性贫血完全缓解",
     "category": "occupational"
   },
   {
-    "id": "7_59",
-    "code": "7_59",
+    "id": "7.59",
+    "code": "7.59",
     "grade": "七级",
     "summary": "白细胞减少症，含量持续<4×10⁹/L(4000/mm³)",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_60",
-    "code": "7_60",
+    "id": "7.60",
+    "code": "7.60",
     "grade": "七级",
     "summary": "中性粒细胞减少症，含量持续<2×10⁹/L(2000/mm³)",
     "category": "ortho_plastic"
   },
   {
-    "id": "7_61",
-    "code": "7_61",
+    "id": "7.61",
+    "code": "7.61",
     "grade": "七级",
     "summary": "慢性轻度中毒性肝病",
     "category": "occupational"
   },
   {
-    "id": "7_62",
-    "code": "7_62",
+    "id": "7.62",
+    "code": "7.62",
     "grade": "七级",
     "summary": "肾功能不全代偿期，内生肌酐清除率<70mL/min",
     "category": "general_urology"
   },
   {
-    "id": "7_63",
-    "code": "7_63",
+    "id": "7.63",
+    "code": "7.63",
     "grade": "七级",
     "summary": "三度牙酸蚀病",
     "category": "occupational"
   },
   {
-    "id": "8_1",
-    "code": "8_1",
+    "id": "8.1",
+    "code": "8.1",
     "grade": "八级",
     "summary": "单肢体瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_2",
-    "code": "8_2",
+    "id": "8.2",
+    "code": "8.2",
     "grade": "八级",
     "summary": "单手全肌瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_3",
-    "code": "8_3",
+    "id": "8.3",
+    "code": "8.3",
     "grade": "八级",
     "summary": "双手部分肌瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_4",
-    "code": "8_4",
+    "id": "8.4",
+    "code": "8.4",
     "grade": "八级",
     "summary": "双足部分肌瘫肌力4级",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_5",
-    "code": "8_5",
+    "id": "8.5",
+    "code": "8.5",
     "grade": "八级",
     "summary": "单足部分肌瘫肌力≤3级",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_6",
-    "code": "8_6",
+    "id": "8.6",
+    "code": "8.6",
     "grade": "八级",
     "summary": "脑叶部分切除术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_7",
-    "code": "8_7",
+    "id": "8.7",
+    "code": "8.7",
     "grade": "八级",
     "summary": "符合重度毁容标准中的一项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_8",
-    "code": "8_8",
+    "id": "8.8",
+    "code": "8.8",
     "grade": "八级",
     "summary": "面部烧伤植皮≥1/5",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_9",
-    "code": "8_9",
+    "id": "8.9",
+    "code": "8.9",
     "grade": "八级",
     "summary": "面部轻度异物沉着或色素脱失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_10",
-    "code": "8_10",
+    "id": "8.10",
+    "code": "8.10",
     "grade": "八级",
     "summary": "双侧耳廓部分或一侧耳廓大部分缺损",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_11",
-    "code": "8_11",
+    "id": "8.11",
+    "code": "8.11",
     "grade": "八级",
     "summary": "全身瘢痕面积≥20%",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_12",
-    "code": "8_12",
+    "id": "8.12",
+    "code": "8.12",
     "grade": "八级",
     "summary": "一侧或双侧眼睑明显缺损",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_13",
-    "code": "8_13",
+    "id": "8.13",
+    "code": "8.13",
     "grade": "八级",
     "summary": "脊椎压缩性骨折，椎体前缘高度减少1/2以上者或脊椎不稳定性骨折",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_14",
-    "code": "8_14",
+    "id": "8.14",
+    "code": "8.14",
     "grade": "八级",
     "summary": "3个及以上节段脊柱内固定术",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_15",
-    "code": "8_15",
+    "id": "8.15",
+    "code": "8.15",
     "grade": "八级",
     "summary": "一手除拇、食指外，有两指近侧指间关节离断",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_16",
-    "code": "8_16",
+    "id": "8.16",
+    "code": "8.16",
     "grade": "八级",
     "summary": "一手除拇、食指外，有两指近侧指间关节功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_17",
-    "code": "8_17",
+    "id": "8.17",
+    "code": "8.17",
     "grade": "八级",
     "summary": "一拇指指间关节离断",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_18",
-    "code": "8_18",
+    "id": "8.18",
+    "code": "8.18",
     "grade": "八级",
     "summary": "一拇指指间关节畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_19",
-    "code": "8_19",
+    "id": "8.19",
+    "code": "8.19",
     "grade": "八级",
     "summary": "一足拇趾缺失，另一足非拇趾一趾缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_20",
-    "code": "8_20",
+    "id": "8.20",
+    "code": "8.20",
     "grade": "八级",
     "summary": "一足拇趾畸形，功能完全丧失，另一足非拇趾一趾畸形",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_21",
-    "code": "8_21",
+    "id": "8.21",
+    "code": "8.21",
     "grade": "八级",
     "summary": "一足除拇趾外，其他三趾缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_22",
-    "code": "8_22",
+    "id": "8.22",
+    "code": "8.22",
     "grade": "八级",
     "summary": "一足除拇趾外，其他四趾瘢痕畸形，功能完全丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_23",
-    "code": "8_23",
+    "id": "8.23",
+    "code": "8.23",
     "grade": "八级",
     "summary": "因开放骨折感染形成慢性骨髓炎，反复发作者",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_24",
-    "code": "8_24",
+    "id": "8.24",
+    "code": "8.24",
     "grade": "八级",
     "summary": "四肢大关节之一关节内骨折导致创伤性关节炎，遗留轻度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_25",
-    "code": "8_25",
+    "id": "8.25",
+    "code": "8.25",
     "grade": "八级",
     "summary": "急性放射皮肤损伤Ⅳ度及慢性放射性皮肤损伤手术治疗后影响肢体功能",
     "category": "occupational"
   },
   {
-    "id": "8_26",
-    "code": "8_26",
+    "id": "8.26",
+    "code": "8.26",
     "grade": "八级",
     "summary": "放射性皮肤溃疡经久不愈者",
     "category": "occupational"
   },
   {
-    "id": "8_27",
-    "code": "8_27",
+    "id": "8.27",
+    "code": "8.27",
     "grade": "八级",
     "summary": "一眼矫正视力≤0.2，另眼矫正视力≥0.5",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_28",
-    "code": "8_28",
+    "id": "8.28",
+    "code": "8.28",
     "grade": "八级",
     "summary": "双眼矫正视力等于0.4",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_29",
-    "code": "8_29",
+    "id": "8.29",
+    "code": "8.29",
     "grade": "八级",
     "summary": "双眼视野≤80%(或半径≤50°)",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_30",
-    "code": "8_30",
+    "id": "8.30",
+    "code": "8.30",
     "grade": "八级",
     "summary": "一侧或双侧睑外翻或睑闭合不全者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_31",
-    "code": "8_31",
+    "id": "8.31",
+    "code": "8.31",
     "grade": "八级",
     "summary": "上睑下垂盖及瞳孔1/3者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_32",
-    "code": "8_32",
+    "id": "8.32",
+    "code": "8.32",
     "grade": "八级",
     "summary": "睑球粘连影响眼球转动者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_33",
-    "code": "8_33",
+    "id": "8.33",
+    "code": "8.33",
     "grade": "八级",
     "summary": "外伤性青光眼行抗青光眼手术后眼压控制正常者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_34",
-    "code": "8_34",
+    "id": "8.34",
+    "code": "8.34",
     "grade": "八级",
-    "summary": "双耳听力损失≥41dB 或一耳≥91dB",
+    "summary": "双耳听力损失≥41dB或一耳≥91dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_35",
-    "code": "8_35",
+    "id": "8.35",
+    "code": "8.35",
     "grade": "八级",
     "summary": "喉或气管损伤导致体力劳动时有呼吸困难",
     "category": "occupational"
   },
   {
-    "id": "8_36",
-    "code": "8_36",
+    "id": "8.36",
+    "code": "8.36",
     "grade": "八级",
     "summary": "喉源性损伤导致发声及言语困难",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_37",
-    "code": "8_37",
+    "id": "8.37",
+    "code": "8.37",
     "grade": "八级",
     "summary": "牙槽骨损伤长度≥6cm，牙齿脱落8个及以上者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_38",
-    "code": "8_38",
+    "id": "8.38",
+    "code": "8.38",
     "grade": "八级",
     "summary": "舌缺损<舌的1/3",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_39",
-    "code": "8_39",
+    "id": "8.39",
+    "code": "8.39",
     "grade": "八级",
     "summary": "双侧鼻腔或鼻咽部闭锁",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_40",
-    "code": "8_40",
+    "id": "8.40",
+    "code": "8.40",
     "grade": "八级",
     "summary": "双侧颞下颌关节强直，张口困难Ⅱ度",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_41",
-    "code": "8_41",
+    "id": "8.41",
+    "code": "8.41",
     "grade": "八级",
     "summary": "上、下颌骨骨折，经牵引、固定治疗后有功能障碍者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_42",
-    "code": "8_42",
+    "id": "8.42",
+    "code": "8.42",
     "grade": "八级",
     "summary": "双侧颧骨并颧弓骨折，无开口困难，颜面部凹陷畸形不明显，不需手术复位",
     "category": "eye_ent_oral"
   },
   {
-    "id": "8_43",
-    "code": "8_43",
+    "id": "8.43",
+    "code": "8.43",
     "grade": "八级",
     "summary": "肺段切除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_44",
-    "code": "8_44",
+    "id": "8.44",
+    "code": "8.44",
     "grade": "八级",
     "summary": "支气管成形术",
     "category": "general_urology"
   },
   {
-    "id": "8_45",
-    "code": "8_45",
+    "id": "8.45",
+    "code": "8.45",
     "grade": "八级",
     "summary": "双侧≥3根肋骨骨折致胸廓畸形",
     "category": "general_urology"
   },
   {
-    "id": "8_46",
-    "code": "8_46",
+    "id": "8.46",
+    "code": "8.46",
     "grade": "八级",
     "summary": "膈肌破裂修补术后，伴膈神经麻痹",
     "category": "general_urology"
   },
   {
-    "id": "8_47",
-    "code": "8_47",
+    "id": "8.47",
+    "code": "8.47",
     "grade": "八级",
     "summary": "心脏、大血管修补术",
     "category": "general_urology"
   },
   {
-    "id": "8_48",
-    "code": "8_48",
+    "id": "8.48",
+    "code": "8.48",
     "grade": "八级",
     "summary": "心脏异物滞留或异物摘除术",
     "category": "general_urology"
   },
   {
-    "id": "8_49",
-    "code": "8_49",
+    "id": "8.49",
+    "code": "8.49",
     "grade": "八级",
     "summary": "肺功能轻度损伤",
     "category": "occupational"
   },
   {
-    "id": "8_50",
-    "code": "8_50",
+    "id": "8.50",
+    "code": "8.50",
     "grade": "八级",
     "summary": "食管重建术后，进食正常者",
     "category": "general_urology"
   },
   {
-    "id": "8_51",
-    "code": "8_51",
+    "id": "8.51",
+    "code": "8.51",
     "grade": "八级",
     "summary": "胃部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_52",
-    "code": "8_52",
+    "id": "8.52",
+    "code": "8.52",
     "grade": "八级",
     "summary": "小肠部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_53",
-    "code": "8_53",
+    "id": "8.53",
+    "code": "8.53",
     "grade": "八级",
     "summary": "结肠部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_54",
-    "code": "8_54",
+    "id": "8.54",
+    "code": "8.54",
     "grade": "八级",
     "summary": "肝部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_55",
-    "code": "8_55",
+    "id": "8.55",
+    "code": "8.55",
     "grade": "八级",
     "summary": "腹壁缺损面积<腹壁的1/4",
     "category": "general_urology"
   },
   {
-    "id": "8_56",
-    "code": "8_56",
+    "id": "8.56",
+    "code": "8.56",
     "grade": "八级",
     "summary": "脾部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_57",
-    "code": "8_57",
+    "id": "8.57",
+    "code": "8.57",
     "grade": "八级",
     "summary": "胰部分切除",
     "category": "general_urology"
   },
   {
-    "id": "8_58",
-    "code": "8_58",
+    "id": "8.58",
+    "code": "8.58",
     "grade": "八级",
     "summary": "甲状腺功能轻度损害",
     "category": "general_urology"
   },
   {
-    "id": "8_59",
-    "code": "8_59",
+    "id": "8.59",
+    "code": "8.59",
     "grade": "八级",
     "summary": "甲状旁腺功能轻度损害",
     "category": "general_urology"
   },
   {
-    "id": "8_60",
-    "code": "8_60",
+    "id": "8.60",
+    "code": "8.60",
     "grade": "八级",
     "summary": "尿道修补术",
     "category": "general_urology"
   },
   {
-    "id": "8_61",
-    "code": "8_61",
+    "id": "8.61",
+    "code": "8.61",
     "grade": "八级",
     "summary": "一侧睾丸、附睾切除",
     "category": "general_urology"
   },
   {
-    "id": "8_62",
-    "code": "8_62",
+    "id": "8.62",
+    "code": "8.62",
     "grade": "八级",
     "summary": "一侧输精管缺损，不能修复",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_63",
-    "code": "8_63",
+    "id": "8.63",
+    "code": "8.63",
     "grade": "八级",
     "summary": "脊髓神经周围神经损伤，或盆腔、会阴手术后遗留性功能障碍",
     "category": "general_urology"
   },
   {
-    "id": "8_64",
-    "code": "8_64",
+    "id": "8.64",
+    "code": "8.64",
     "grade": "八级",
     "summary": "一侧肾上腺缺损",
     "category": "general_urology"
   },
   {
-    "id": "8_65",
-    "code": "8_65",
+    "id": "8.65",
+    "code": "8.65",
     "grade": "八级",
     "summary": "单侧输卵管切除",
     "category": "general_urology"
   },
   {
-    "id": "8_66",
-    "code": "8_66",
+    "id": "8.66",
+    "code": "8.66",
     "grade": "八级",
     "summary": "单侧卵巢切除",
     "category": "general_urology"
   },
   {
-    "id": "8_67",
-    "code": "8_67",
+    "id": "8.67",
+    "code": "8.67",
     "grade": "八级",
     "summary": "女性单侧乳房切除或严重瘢痕畸形",
     "category": "ortho_plastic"
   },
   {
-    "id": "8_68",
-    "code": "8_68",
+    "id": "8.68",
+    "code": "8.68",
     "grade": "八级",
     "summary": "其他职业性肺疾患，肺功能正常",
     "category": "occupational"
   },
   {
-    "id": "8_69",
-    "code": "8_69",
+    "id": "8.69",
+    "code": "8.69",
     "grade": "八级",
     "summary": "中毒性肾病，持续低分子蛋白尿",
     "category": "general_urology"
   },
   {
-    "id": "8_70",
-    "code": "8_70",
+    "id": "8.70",
+    "code": "8.70",
     "grade": "八级",
     "summary": "慢性中度磷中毒",
     "category": "occupational"
   },
   {
-    "id": "8_71",
-    "code": "8_71",
+    "id": "8.71",
+    "code": "8.71",
     "grade": "八级",
     "summary": "氟及其无机化合物中毒慢性中度中毒",
     "category": "occupational"
   },
   {
-    "id": "8_72",
-    "code": "8_72",
+    "id": "8.72",
+    "code": "8.72",
     "grade": "八级",
     "summary": "减压性骨坏死Ⅱ期",
     "category": "occupational"
   },
   {
-    "id": "8_73",
-    "code": "8_73",
+    "id": "8.73",
+    "code": "8.73",
     "grade": "八级",
     "summary": "轻度手臂振动病",
     "category": "occupational"
   },
   {
-    "id": "8_74",
-    "code": "8_74",
+    "id": "8.74",
+    "code": "8.74",
     "grade": "八级",
     "summary": "二度牙酸蚀",
     "category": "occupational"
   },
   {
-    "id": "9_1",
-    "code": "9_1",
+    "id": "9.1",
+    "code": "9.1",
     "grade": "九级",
     "summary": "癫痫轻度",
     "category": "neuro_psych"
   },
   {
-    "id": "9_2",
-    "code": "9_2",
+    "id": "9.2",
+    "code": "9.2",
     "grade": "九级",
     "summary": "中毒性周围神经病致浅感觉障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "9_3",
-    "code": "9_3",
+    "id": "9.3",
+    "code": "9.3",
     "grade": "九级",
     "summary": "脑挫裂伤无功能障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "9_4",
-    "code": "9_4",
+    "id": "9.4",
+    "code": "9.4",
     "grade": "九级",
     "summary": "开颅手术后无功能障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "9_5",
-    "code": "9_5",
+    "id": "9.5",
+    "code": "9.5",
     "grade": "九级",
     "summary": "颅内异物无功能障碍",
     "category": "neuro_psych"
   },
   {
-    "id": "9_6",
-    "code": "9_6",
+    "id": "9.6",
+    "code": "9.6",
     "grade": "九级",
     "summary": "颈部外伤致颈总、颈内动脉狭窄，支架置入或血管搭桥手术后无功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_7",
-    "code": "9_7",
+    "id": "9.7",
+    "code": "9.7",
     "grade": "九级",
     "summary": "符合中度毁容标准中的两项或轻度毁容者",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_8",
-    "code": "9_8",
+    "id": "9.8",
+    "code": "9.8",
     "grade": "九级",
     "summary": "发际边缘瘢痕性秃发或其他部位秃发，需戴假发者",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_9",
-    "code": "9_9",
+    "id": "9.9",
+    "code": "9.9",
     "grade": "九级",
     "summary": "全身瘢痕占体表面积≥5%",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_10",
-    "code": "9_10",
+    "id": "9.10",
+    "code": "9.10",
     "grade": "九级",
-    "summary": "面部有≥8cm² 或3 处以上≥1cm² 的瘢痕",
+    "summary": "面部有≥8cm²或3处以上≥1cm²的瘢痕",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_11",
-    "code": "9_11",
+    "id": "9.11",
+    "code": "9.11",
     "grade": "九级",
     "summary": "两个以上横突骨折",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_12",
-    "code": "9_12",
+    "id": "9.12",
+    "code": "9.12",
     "grade": "九级",
     "summary": "脊椎压缩骨折，椎体前缘高度减少小于1/2者",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_13",
-    "code": "9_13",
+    "id": "9.13",
+    "code": "9.13",
     "grade": "九级",
     "summary": "椎间盘髓核切除术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_14",
-    "code": "9_14",
+    "id": "9.14",
+    "code": "9.14",
     "grade": "九级",
-    "summary": "1～2 节脊柱内固定术",
+    "summary": "1～2节脊柱内固定术",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_15",
-    "code": "9_15",
+    "id": "9.15",
+    "code": "9.15",
     "grade": "九级",
     "summary": "一拇指末节部分1/2缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_16",
-    "code": "9_16",
+    "id": "9.16",
+    "code": "9.16",
     "grade": "九级",
-    "summary": "一手食指2～3 节缺失",
+    "summary": "一手食指2～3节缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_17",
-    "code": "9_17",
+    "id": "9.17",
+    "code": "9.17",
     "grade": "九级",
     "summary": "一拇指指间关节僵直于功能位",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_18",
-    "code": "9_18",
+    "id": "9.18",
+    "code": "9.18",
     "grade": "九级",
-    "summary": "除拇指外，余3～4 指末节缺失",
+    "summary": "除拇指外，余3～4指末节缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_19",
-    "code": "9_19",
+    "id": "9.19",
+    "code": "9.19",
     "grade": "九级",
     "summary": "一足拇趾末节缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_20",
-    "code": "9_20",
+    "id": "9.20",
+    "code": "9.20",
     "grade": "九级",
     "summary": "除拇趾外其他二趾缺失或瘢痕畸形，功能不全",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_21",
-    "code": "9_21",
+    "id": "9.21",
+    "code": "9.21",
     "grade": "九级",
     "summary": "跖骨或跗骨骨折影响足弓者",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_22",
-    "code": "9_22",
+    "id": "9.22",
+    "code": "9.22",
     "grade": "九级",
     "summary": "外伤后膝关节半月板切除、髌骨切除、膝关节交叉韧带修补术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_23",
-    "code": "9_23",
+    "id": "9.23",
+    "code": "9.23",
     "grade": "九级",
     "summary": "四肢长管状骨骨折内固定或外固定支架术后",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_24",
-    "code": "9_24",
+    "id": "9.24",
+    "code": "9.24",
     "grade": "九级",
     "summary": "髌骨、跟骨、距骨、下颌骨或骨盆骨折内固定术后",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_25",
-    "code": "9_25",
+    "id": "9.25",
+    "code": "9.25",
     "grade": "九级",
-    "summary": "第 Ⅴ 对脑神经眼支麻痹",
+    "summary": "第Ⅴ对脑神经眼支麻痹",
     "category": "neuro_psych"
   },
   {
-    "id": "9_26",
-    "code": "9_26",
+    "id": "9.26",
+    "code": "9.26",
     "grade": "九级",
     "summary": "眶壁骨折致眼球内陷、两眼球突出度相差>2mm或错位变形影响外观者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_27",
-    "code": "9_27",
+    "id": "9.27",
+    "code": "9.27",
     "grade": "九级",
     "summary": "一眼矫正视力≤0.3，另眼矫正视力>0.6",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_28",
-    "code": "9_28",
+    "id": "9.28",
+    "code": "9.28",
     "grade": "九级",
     "summary": "双眼矫正视力等于0.5",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_29",
-    "code": "9_29",
+    "id": "9.29",
+    "code": "9.29",
     "grade": "九级",
     "summary": "泪器损伤，手术无法改进溢泪者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_30",
-    "code": "9_30",
+    "id": "9.30",
+    "code": "9.30",
     "grade": "九级",
-    "summary": "双耳听力损失≥31dB 或一耳损失≥71dB",
+    "summary": "双耳听力损失≥31dB或一耳损失≥71dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_31",
-    "code": "9_31",
+    "id": "9.31",
+    "code": "9.31",
     "grade": "九级",
     "summary": "喉源性损伤导致发声及言语不畅",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_32",
-    "code": "9_32",
+    "id": "9.32",
+    "code": "9.32",
     "grade": "九级",
     "summary": "铬鼻病有医疗依赖",
     "category": "occupational"
   },
   {
-    "id": "9_33",
-    "code": "9_33",
+    "id": "9.33",
+    "code": "9.33",
     "grade": "九级",
     "summary": "牙槽骨损伤长度>4cm，牙脱落4个及以上",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_34",
-    "code": "9_34",
+    "id": "9.34",
+    "code": "9.34",
     "grade": "九级",
     "summary": "上、下颌骨骨折，经牵引、固定治疗后无功能障碍者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_35",
-    "code": "9_35",
+    "id": "9.35",
+    "code": "9.35",
     "grade": "九级",
     "summary": "一侧下颌骨髁状突颈部骨折",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_36",
-    "code": "9_36",
+    "id": "9.36",
+    "code": "9.36",
     "grade": "九级",
     "summary": "一侧颧骨并颧弓骨折",
     "category": "eye_ent_oral"
   },
   {
-    "id": "9_37",
-    "code": "9_37",
+    "id": "9.37",
+    "code": "9.37",
     "grade": "九级",
     "summary": "肺内异物滞留或异物摘除术",
     "category": "ortho_plastic"
   },
   {
-    "id": "9_38",
-    "code": "9_38",
+    "id": "9.38",
+    "code": "9.38",
     "grade": "九级",
     "summary": "限局性脓胸行胸膜剥脱术",
     "category": "general_urology"
   },
   {
-    "id": "9_39",
-    "code": "9_39",
+    "id": "9.39",
+    "code": "9.39",
     "grade": "九级",
     "summary": "胆囊切除",
     "category": "general_urology"
   },
   {
-    "id": "9_40",
-    "code": "9_40",
+    "id": "9.40",
+    "code": "9.40",
     "grade": "九级",
     "summary": "一侧卵巢部分切除",
     "category": "general_urology"
   },
   {
-    "id": "9_41",
-    "code": "9_41",
+    "id": "9.41",
+    "code": "9.41",
     "grade": "九级",
     "summary": "乳腺成形术",
     "category": "general_urology"
   },
   {
-    "id": "9_42",
-    "code": "9_42",
+    "id": "9.42",
+    "code": "9.42",
     "grade": "九级",
     "summary": "胸、腹腔脏器探查术或修补术后",
     "category": "general_urology"
   },
   {
-    "id": "10_1",
-    "code": "10_1",
+    "id": "10.1",
+    "code": "10.1",
     "grade": "十级",
     "summary": "符合中度毁容标准中的一项者",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_2",
-    "code": "10_2",
+    "id": "10.2",
+    "code": "10.2",
     "grade": "十级",
     "summary": "面部有瘢痕，植皮，异物色素沉着或脱失>2cm²",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_3",
-    "code": "10_3",
+    "id": "10.3",
+    "code": "10.3",
     "grade": "十级",
     "summary": "全身瘢痕面积<5%，但≥1%",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_4",
-    "code": "10_4",
+    "id": "10.4",
+    "code": "10.4",
     "grade": "十级",
     "summary": "急性外伤导致椎间盘髓核突出，并伴神经刺激征者",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_5",
-    "code": "10_5",
+    "id": "10.5",
+    "code": "10.5",
     "grade": "十级",
     "summary": "一手指除拇指外，任何一指远侧指间关节离断或功能丧失",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_6",
-    "code": "10_6",
+    "id": "10.6",
+    "code": "10.6",
     "grade": "十级",
-    "summary": "指端植皮术后(增生性瘢痕1cm² 以上)",
+    "summary": "指端植皮术后(增生性瘢痕1cm²以上)",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_7",
-    "code": "10_7",
+    "id": "10.7",
+    "code": "10.7",
     "grade": "十级",
     "summary": "手背植皮面积>50cm²，并有明显瘢痕",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_8",
-    "code": "10_8",
+    "id": "10.8",
+    "code": "10.8",
     "grade": "十级",
     "summary": "手掌、足掌植皮面积>30%者",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_9",
-    "code": "10_9",
+    "id": "10.9",
+    "code": "10.9",
     "grade": "十级",
     "summary": "除拇趾外，任何一趾末节缺失",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_10",
-    "code": "10_10",
+    "id": "10.10",
+    "code": "10.10",
     "grade": "十级",
     "summary": "足背植皮面积>100cm²",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_11",
-    "code": "10_11",
+    "id": "10.11",
+    "code": "10.11",
     "grade": "十级",
     "summary": "膝关节半月板损伤、膝关节交叉韧带损伤未做手术者",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_12",
-    "code": "10_12",
+    "id": "10.12",
+    "code": "10.12",
     "grade": "十级",
     "summary": "身体各部位骨折愈合后无功能障碍或轻度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_13",
-    "code": "10_13",
+    "id": "10.13",
+    "code": "10.13",
     "grade": "十级",
     "summary": "四肢大关节肌腱及韧带撕裂伤术后遗留轻度功能障碍",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_14",
-    "code": "10_14",
+    "id": "10.14",
+    "code": "10.14",
     "grade": "十级",
     "summary": "一手或两手慢性放射性皮肤损伤Ⅱ度及Ⅱ度以上者",
     "category": "occupational"
   },
   {
-    "id": "10_15",
-    "code": "10_15",
+    "id": "10.15",
+    "code": "10.15",
     "grade": "十级",
     "summary": "一眼矫正视力≤0.5，另一眼矫正视力≥0.8",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_16",
-    "code": "10_16",
+    "id": "10.16",
+    "code": "10.16",
     "grade": "十级",
     "summary": "双眼矫正视力≤0.8",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_17",
-    "code": "10_17",
+    "id": "10.17",
+    "code": "10.17",
     "grade": "十级",
     "summary": "一侧或双侧睑外翻或睑闭合不全行成形手术后矫正者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_18",
-    "code": "10_18",
+    "id": "10.18",
+    "code": "10.18",
     "grade": "十级",
     "summary": "上睑下垂盖及瞳孔1/3行成形手术后矫正者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_19",
-    "code": "10_19",
+    "id": "10.19",
+    "code": "10.19",
     "grade": "十级",
     "summary": "睑球粘连影响眼球转动行成形手术后矫正者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_20",
-    "code": "10_20",
+    "id": "10.20",
+    "code": "10.20",
     "grade": "十级",
     "summary": "职业性及外伤性白内障术后人工晶状体眼，矫正视力正常者",
     "category": "occupational"
   },
   {
-    "id": "10_21",
-    "code": "10_21",
+    "id": "10.21",
+    "code": "10.21",
     "grade": "十级",
     "summary": "职业性及外伤性白内障Ⅰ度～Ⅱ度(或轻度、中度)，矫正视力正常者",
     "category": "occupational"
   },
   {
-    "id": "10_22",
-    "code": "10_22",
+    "id": "10.22",
+    "code": "10.22",
     "grade": "十级",
     "summary": "晶状体部分脱位",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_23",
-    "code": "10_23",
+    "id": "10.23",
+    "code": "10.23",
     "grade": "十级",
     "summary": "眶内异物未取出者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_24",
-    "code": "10_24",
+    "id": "10.24",
+    "code": "10.24",
     "grade": "十级",
     "summary": "眼球内异物未取出者",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_25",
-    "code": "10_25",
+    "id": "10.25",
+    "code": "10.25",
     "grade": "十级",
     "summary": "外伤性瞳孔放大",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_26",
-    "code": "10_26",
+    "id": "10.26",
+    "code": "10.26",
     "grade": "十级",
     "summary": "角巩膜穿通伤治愈者",
     "category": "ortho_plastic"
   },
   {
-    "id": "10_27",
-    "code": "10_27",
+    "id": "10.27",
+    "code": "10.27",
     "grade": "十级",
     "summary": "双耳听力损失≥26dB，或一耳≥56dB",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_28",
-    "code": "10_28",
+    "id": "10.28",
+    "code": "10.28",
     "grade": "十级",
     "summary": "双侧前庭功能丧失，闭眼不能并足站立",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_29",
-    "code": "10_29",
+    "id": "10.29",
+    "code": "10.29",
     "grade": "十级",
     "summary": "铬鼻病(无症状者)",
     "category": "occupational"
   },
   {
-    "id": "10_30",
-    "code": "10_30",
+    "id": "10.30",
+    "code": "10.30",
     "grade": "十级",
     "summary": "嗅觉丧失",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_31",
-    "code": "10_31",
+    "id": "10.31",
+    "code": "10.31",
     "grade": "十级",
     "summary": "牙齿除智齿以外，切牙脱落1个以上或其他牙脱落2个以上",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_32",
-    "code": "10_32",
+    "id": "10.32",
+    "code": "10.32",
     "grade": "十级",
     "summary": "一侧颞下颌关节强直，张口困难I度",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_33",
-    "code": "10_33",
+    "id": "10.33",
+    "code": "10.33",
     "grade": "十级",
     "summary": "鼻窦或面颊部有异物未取出",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_34",
-    "code": "10_34",
+    "id": "10.34",
+    "code": "10.34",
     "grade": "十级",
     "summary": "单侧鼻腔或鼻孔闭锁",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_35",
-    "code": "10_35",
+    "id": "10.35",
+    "code": "10.35",
     "grade": "十级",
     "summary": "鼻中隔穿孔",
     "category": "eye_ent_oral"
   },
   {
-    "id": "10_36",
-    "code": "10_36",
+    "id": "10.36",
+    "code": "10.36",
     "grade": "十级",
     "summary": "一侧不完全性面瘫",
     "category": "neuro_psych"
   },
   {
-    "id": "10_37",
-    "code": "10_37",
+    "id": "10.37",
+    "code": "10.37",
     "grade": "十级",
     "summary": "血、气胸行单纯闭式引流术后，胸膜粘连增厚",
     "category": "general_urology"
   },
   {
-    "id": "10_38",
-    "code": "10_38",
+    "id": "10.38",
+    "code": "10.38",
     "grade": "十级",
     "summary": "腹腔脏器挫裂伤保守治疗后",
     "category": "general_urology"
   },
   {
-    "id": "10_39",
-    "code": "10_39",
+    "id": "10.39",
+    "code": "10.39",
     "grade": "十级",
     "summary": "乳腺修补术后",
     "category": "general_urology"
   },
   {
-    "id": "10_40",
-    "code": "10_40",
+    "id": "10.40",
+    "code": "10.40",
     "grade": "十级",
     "summary": "放射性损伤致免疫功能轻度减退",
     "category": "occupational"
   },
   {
-    "id": "10_41",
-    "code": "10_41",
+    "id": "10.41",
+    "code": "10.41",
     "grade": "十级",
     "summary": "慢性轻度磷中毒",
     "category": "occupational"
   },
   {
-    "id": "10_42",
-    "code": "10_42",
+    "id": "10.42",
+    "code": "10.42",
     "grade": "十级",
     "summary": "氟及其无机化合物中毒慢性轻度中毒",
     "category": "occupational"
   },
   {
-    "id": "10_43",
-    "code": "10_43",
+    "id": "10.43",
+    "code": "10.43",
     "grade": "十级",
     "summary": "井下工人滑囊炎",
     "category": "occupational"
   },
   {
-    "id": "10_44",
-    "code": "10_44",
+    "id": "10.44",
+    "code": "10.44",
     "grade": "十级",
     "summary": "减压性骨坏死Ⅰ期",
     "category": "occupational"
   },
   {
-    "id": "10_45",
-    "code": "10_45",
+    "id": "10.45",
+    "code": "10.45",
     "grade": "十级",
     "summary": "一度牙酸蚀病",
     "category": "occupational"
   },
   {
-    "id": "10_46",
-    "code": "10_46",
+    "id": "10.46",
+    "code": "10.46",
     "grade": "十级",
     "summary": "职业性皮肤病久治不愈",
     "category": "occupational"
