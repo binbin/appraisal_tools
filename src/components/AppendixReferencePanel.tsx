@@ -23,7 +23,7 @@ export function AppendixReferencePanel({
     return (
       <div className="appendix-panel">
         <div className="appendix-panel__role">
-          规范性附录：按门类整理的正文条款查询索引（表 C.1～C.5）
+          规范性附录：原文分级表（伤残类别 × 一～十级）
         </div>
         <StandardAssetGallery
           category={category}
