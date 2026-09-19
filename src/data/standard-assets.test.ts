@@ -61,7 +61,7 @@ describe("STANDARD_ASSETS", () => {
     expect(byLeft["0.15"].c13).toBe("83");
     expect(byLeft["0.1"].c11).toBe("80");
     expect(byLeft["1/15"].c11).toBe("92");
-    expect(byLeft["1~0.9"].c1).toBe("0");
+    expect(byLeft["1～0.9"].c1).toBe("0");
     expect(byLeft["<1/20"].c13).toBe("100");
   });
 
