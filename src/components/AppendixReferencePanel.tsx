@@ -23,7 +23,7 @@ export function AppendixReferencePanel({
     return (
       <div className="appendix-panel">
         <div className="appendix-panel__role">
-          规范性附录：原文分级表（伤残类别 × 一～十级）
+          规范性附录：分级表（伤残类别 × 一～十级，Ant Table）
         </div>
         <StandardAssetGallery
           category={category}

@@ -14,7 +14,7 @@ const SAMPLE: InjuryClause[] = [
     id: "3_1",
     code: "3_1",
     grade: "三级",
-    summary: "精神病性症状,经系统治疗 1 年后仍表现为危险或冲动行为者",
+    summary: "精神病性症状，经系统治疗1年后仍表现为危险或冲动行为者",
     category: "neuro_psych",
   },
   {

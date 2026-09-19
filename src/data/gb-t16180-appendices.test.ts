@@ -21,4 +21,11 @@ describe("APPENDIX_DATASET", () => {
       expect(sectionB?.body.length).toBeGreaterThan(100);
     }
   });
+
+  it("uses full-width punctuation in appendix bodies", () => {
+    for (const section of APPENDIX_DATASET.sections) {
+      expect(section.body).not.toMatch(/[\u4e00-\u9fff],/);
+      expect(section.body).toMatch(/^[AB]\.\d/);
+    }
+  });
 });

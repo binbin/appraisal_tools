@@ -1,5 +1,11 @@
 import { Image, Table, Typography } from "antd";
-import { getAppendixCTable } from "../data/appendix-c-tables";
+import type { ColumnsType } from "antd/es/table";
+import {
+  getAppendixCMatrix,
+  GRADE_COLUMN_KEYS,
+  GRADE_COLUMN_LABELS,
+  type AppendixCMatrixRow,
+} from "../data/appendix-c-tables";
 import {
   getAssetsForCategory,
   type StandardAsset,
@@ -20,7 +26,7 @@ export function StandardAssetGallery({
   appendix,
 }: StandardAssetGalleryProps) {
   if (appendix === "C") {
-    return <AppendixCOriginalTables category={category} />;
+    return <AppendixCAntdTable category={category} />;
   }
 
   const assets = getAssetsForCategory(category, appendix);
@@ -66,13 +72,14 @@ function TableAssetView({ asset }: { asset: StandardTableAsset }) {
     <Table
       size="small"
       pagination={false}
-      scroll={{ x: true }}
+      scroll={{ x: true, y: 420 }}
       rowKey={(_, index) => `${asset.id}-${index}`}
       columns={asset.columns.map((column) => ({
         title: column.title,
         dataIndex: column.dataIndex,
         width: column.width,
         ellipsis: true,
+        fixed: column.dataIndex === asset.columns[0]?.dataIndex ? "left" : undefined,
       }))}
       dataSource={asset.rows}
       bordered
@@ -92,33 +99,51 @@ function FigureAssetView({ asset }: { asset: StandardFigureAsset }) {
   );
 }
 
-function AppendixCOriginalTables({
-  category,
-}: {
-  category: SpecialtyCategory;
-}) {
-  const table = getAppendixCTable(category);
+function AppendixCAntdTable({ category }: { category: SpecialtyCategory }) {
+  const table = getAppendixCMatrix(category);
+
+  const columns: ColumnsType<AppendixCMatrixRow> = [
+    {
+      title: "伤残类别",
+      dataIndex: "category",
+      key: "category",
+      width: 140,
+      fixed: "left",
+      render: (value: string) => (
+        <span className="appendix-c-category">{value}</span>
+      ),
+    },
+    {
+      title: "分级",
+      children: GRADE_COLUMN_KEYS.map((key, index) => ({
+        title: GRADE_COLUMN_LABELS[index],
+        dataIndex: key,
+        key,
+        width: 160,
+        render: (value: string) => (
+          <div className="appendix-c-cell">{value || ""}</div>
+        ),
+      })),
+    },
+  ];
 
   return (
-    <section className="asset-card">
+    <section className="asset-card appendix-c-table-card">
       <Typography.Title level={5} className="asset-card__title">
         {table.title}
       </Typography.Title>
       <Typography.Paragraph type="secondary" className="asset-card__note">
-        原表结构：伤残类别 × 分级（一～十）。可点击放大查看；选条款请切回「正文条款」。
+        原表结构：伤残类别 × 分级（一～十）。表头与首列已固定，可横向/纵向滚动。
       </Typography.Paragraph>
-      <Image.PreviewGroup>
-        <div className="appendix-c-pages">
-          {table.pages.map((src, index) => (
-            <Image
-              key={src}
-              src={src}
-              alt={`${table.title} 第 ${index + 1} 页`}
-              className="appendix-c-page"
-            />
-          ))}
-        </div>
-      </Image.PreviewGroup>
+      <Table<AppendixCMatrixRow>
+        size="small"
+        bordered
+        pagination={false}
+        scroll={{ x: 140 + 160 * 10, y: 520 }}
+        rowKey={(row) => row.category}
+        columns={columns}
+        dataSource={table.rows}
+      />
     </section>
   );
 }

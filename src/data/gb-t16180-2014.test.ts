@@ -55,4 +55,25 @@ describe("INJURY_CLAUSES", () => {
     const fiveFive = INJURY_CLAUSES.find((item) => item.code === "5_5");
     expect(fiveFive?.grade).toBe("五级");
   });
+
+  it("keeps cleaned punctuation and units in extracted summaries", () => {
+    for (const clause of INJURY_CLAUSES) {
+      expect(clause.summary).not.toMatch(/[,;]/);
+      expect(clause.summary).not.toMatch(/5\.\s*\d+\s*[一二三四五六七八九十]/);
+      expect(clause.summary).not.toMatch(/mL\/mi\s+n|μmo\s+l/);
+    }
+
+    const oneTwentyThree = INJURY_CLAUSES.find(
+      (item) => item.code === "1_23",
+    );
+    expect(oneTwentyThree?.summary).toBe(
+      "肾功能不全尿毒症期，内生肌酐清除率持续<10mL/min，"
+        + "或血浆肌酐水平持续>707μmol/L(8mg/dL)",
+    );
+
+    const twoThirtyNine = INJURY_CLAUSES.find(
+      (item) => item.code === "2_39",
+    );
+    expect(twoThirtyNine?.summary).toBe("放射性肿瘤");
+  });
 });

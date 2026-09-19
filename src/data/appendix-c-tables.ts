@@ -1,72 +1,71 @@
 import type { SpecialtyCategory } from "../types/clause";
+import matrixData from "./appendix-c-matrix.json";
 
-export type AppendixCTablePages = {
-  id: string;
-  title: string;
-  category: SpecialtyCategory;
-  pages: string[];
+export type AppendixCMatrixRow = {
+  category: string;
+  g1: string;
+  g2: string;
+  g3: string;
+  g4: string;
+  g5: string;
+  g6: string;
+  g7: string;
+  g8: string;
+  g9: string;
+  g10: string;
 };
 
-/** 附录 C 原表页图（由 GB/T 16180—2014 标准页渲染） */
-export const APPENDIX_C_TABLES: AppendixCTablePages[] = [
-  {
-    id: "C.1",
-    title: "表 C.1 神经内科、神经外科、精神科门",
-    category: "neuro_psych",
-    pages: [
-      "/gbt16180/tables-c/C1-1.png",
-      "/gbt16180/tables-c/C1-2.png",
-    ],
-  },
-  {
-    id: "C.2",
-    title: "表 C.2 骨科、整形外科、烧伤科门",
-    category: "ortho_plastic",
-    pages: [
-      "/gbt16180/tables-c/C2-1.png",
-      "/gbt16180/tables-c/C2-2.png",
-      "/gbt16180/tables-c/C2-3.png",
-    ],
-  },
-  {
-    id: "C.3",
-    title: "表 C.3 眼科、耳鼻喉科、口腔科门",
-    category: "eye_ent_oral",
-    pages: [
-      "/gbt16180/tables-c/C3-1.png",
-      "/gbt16180/tables-c/C3-2.png",
-      "/gbt16180/tables-c/C3-3.png",
-    ],
-  },
-  {
-    id: "C.4",
-    title: "表 C.4 普外、胸外、泌尿生殖科门",
-    category: "general_urology",
-    pages: [
-      "/gbt16180/tables-c/C4-1.png",
-      "/gbt16180/tables-c/C4-2.png",
-      "/gbt16180/tables-c/C4-3.png",
-      "/gbt16180/tables-c/C4-4.png",
-    ],
-  },
-  {
-    id: "C.5",
-    title: "表 C.5 职业病内科门",
-    category: "occupational",
-    pages: [
-      "/gbt16180/tables-c/C5-1.png",
-      "/gbt16180/tables-c/C5-2.png",
-      "/gbt16180/tables-c/C5-3.png",
-    ],
-  },
-];
+export type AppendixCMatrixTable = {
+  title: string;
+  rows: AppendixCMatrixRow[];
+};
 
-export function getAppendixCTable(
+export const APPENDIX_C_MATRIX = matrixData as Record<
+  string,
+  AppendixCMatrixTable
+>;
+
+const CATEGORY_TO_TABLE_ID: Record<SpecialtyCategory, string> = {
+  neuro_psych: "C.1",
+  ortho_plastic: "C.2",
+  eye_ent_oral: "C.3",
+  general_urology: "C.4",
+  occupational: "C.5",
+};
+
+export function getAppendixCMatrix(
   category: SpecialtyCategory,
-): AppendixCTablePages {
-  const found = APPENDIX_C_TABLES.find((item) => item.category === category);
-  if (!found) {
-    throw new Error(`Missing appendix C table for ${category}`);
+): AppendixCMatrixTable & { id: string } {
+  const tableId = CATEGORY_TO_TABLE_ID[category];
+  const table = APPENDIX_C_MATRIX[tableId];
+  if (!table) {
+    throw new Error(`Missing appendix C matrix ${tableId}`);
   }
-  return found;
+  return { id: tableId, ...table };
 }
+
+export const GRADE_COLUMN_KEYS = [
+  "g1",
+  "g2",
+  "g3",
+  "g4",
+  "g5",
+  "g6",
+  "g7",
+  "g8",
+  "g9",
+  "g10",
+] as const;
+
+export const GRADE_COLUMN_LABELS = [
+  "一",
+  "二",
+  "三",
+  "四",
+  "五",
+  "六",
+  "七",
+  "八",
+  "九",
+  "十",
+] as const;

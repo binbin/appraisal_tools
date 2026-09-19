@@ -35,14 +35,22 @@
   text-align: center;
 }
 
-.appendix-c-pages {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.appendix-c-table-card {
+  overflow: hidden;
 }
 
-.appendix-c-page {
-  width: 100%;
-  border: 1px solid var(--border, #e2e8f0);
-  border-radius: 4px;
+.appendix-c-category {
+  font-weight: 600;
+  color: #0f172a;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.appendix-c-cell {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 12px;
+  line-height: 1.45;
+  color: #334155;
+  min-height: 1.45em;
 }
