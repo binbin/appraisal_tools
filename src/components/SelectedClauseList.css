@@ -1,0 +1,37 @@
+.selected-clause-list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+.selected-clause-list--empty {
+  margin-top: 16px;
+  padding: 16px;
+  color: #94a3b8;
+  background: #fff;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.selected-clause-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.selected-clause-row + .selected-clause-row {
+  margin-top: 8px;
+}
+
+.selected-clause-text {
+  cursor: default;
+  color: var(--text-h);
+  font-weight: 500;
+}
