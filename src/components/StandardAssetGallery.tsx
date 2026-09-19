@@ -1,27 +1,13 @@
 import { Image, Table, Typography } from "antd";
+import { getAppendixCTable } from "../data/appendix-c-tables";
 import {
   getAssetsForCategory,
   type StandardAsset,
   type StandardFigureAsset,
   type StandardTableAsset,
 } from "../data/standard-assets";
-import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
 import type { InjuryClause, SpecialtyCategory } from "../types/clause";
-import { formatClause } from "../utils/formatClause";
 import "./StandardAssetGallery.css";
-
-const GRADE_ORDER = [
-  "一级",
-  "二级",
-  "三级",
-  "四级",
-  "五级",
-  "六级",
-  "七级",
-  "八级",
-  "九级",
-  "十级",
-] as const;
 
 export type StandardAssetGalleryProps = {
   category: SpecialtyCategory;
@@ -32,12 +18,9 @@ export type StandardAssetGalleryProps = {
 export function StandardAssetGallery({
   category,
   appendix,
-  onSelectClause,
 }: StandardAssetGalleryProps) {
   if (appendix === "C") {
-    return (
-      <AppendixCTables category={category} onSelectClause={onSelectClause} />
-    );
+    return <AppendixCOriginalTables category={category} />;
   }
 
   const assets = getAssetsForCategory(category, appendix);
@@ -109,67 +92,33 @@ function FigureAssetView({ asset }: { asset: StandardFigureAsset }) {
   );
 }
 
-type AppendixCTablesProps = {
-  category: SpecialtyCategory;
-  onSelectClause?: (clause: InjuryClause) => void;
-};
-
-function AppendixCTables({
+function AppendixCOriginalTables({
   category,
-  onSelectClause,
-}: AppendixCTablesProps) {
-  const tableIdByCategory: Record<SpecialtyCategory, string> = {
-    neuro_psych: "C.1",
-    ortho_plastic: "C.2",
-    eye_ent_oral: "C.3",
-    general_urology: "C.4",
-    occupational: "C.5",
-  };
-  const tableId = tableIdByCategory[category];
-  const clauses = INJURY_CLAUSES.filter(
-    (clause) => clause.category === category,
-  );
-
-  const rows = GRADE_ORDER.flatMap((grade) =>
-    clauses
-      .filter((clause) => clause.grade === grade)
-      .map((clause) => ({
-        key: clause.id,
-        grade: clause.grade,
-        code: clause.code,
-        summary: clause.summary,
-        clause,
-      })),
-  );
+}: {
+  category: SpecialtyCategory;
+}) {
+  const table = getAppendixCTable(category);
 
   return (
     <section className="asset-card">
       <Typography.Title level={5} className="asset-card__title">
-        表 {tableId}（本门类正文条款索引）
+        {table.title}
       </Typography.Title>
       <Typography.Paragraph type="secondary" className="asset-card__note">
-        对应附录 C 分级表。点击行可选入鉴定结果；最终依据仍是正文条款。
+        原表结构：伤残类别 × 分级（一～十）。可点击放大查看；选条款请切回「正文条款」。
       </Typography.Paragraph>
-      <Table
-        size="small"
-        pagination={{ pageSize: 20, showSizeChanger: false }}
-        rowKey="key"
-        bordered
-        onRow={(record) => ({
-          onClick: () => onSelectClause?.(record.clause),
-          style: { cursor: "pointer" },
-        })}
-        columns={[
-          { title: "等级", dataIndex: "grade", width: 72 },
-          { title: "编号", dataIndex: "code", width: 80 },
-          {
-            title: "条款内容",
-            dataIndex: "summary",
-            render: (_value, record) => formatClause(record.clause),
-          },
-        ]}
-        dataSource={rows}
-      />
+      <Image.PreviewGroup>
+        <div className="appendix-c-pages">
+          {table.pages.map((src, index) => (
+            <Image
+              key={src}
+              src={src}
+              alt={`${table.title} 第 ${index + 1} 页`}
+              className="appendix-c-page"
+            />
+          ))}
+        </div>
+      </Image.PreviewGroup>
     </section>
   );
 }

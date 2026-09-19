@@ -34,3 +34,15 @@
   color: #94a3b8;
   text-align: center;
 }
+
+.appendix-c-pages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.appendix-c-page {
+  width: 100%;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 4px;
+}
