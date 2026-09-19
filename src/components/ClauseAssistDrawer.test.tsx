@@ -12,14 +12,14 @@ describe("ClauseAssistDrawer", () => {
         open
         onClose={vi.fn()}
         selectedIds={[]}
-        activeCategory="ortho_plastic"
+        activeCategory="neuro_psych"
         onCategoryChange={vi.fn()}
         onSelect={onSelect}
       />,
     );
 
     expect(
-      screen.getByText("骨科、整形外科、烧伤科门"),
+      screen.getByText("神经内科、神经外科、精神科门"),
     ).toBeInTheDocument();
     expect(screen.getByText("5.3.2_1 三级")).toBeInTheDocument();
 
@@ -35,7 +35,7 @@ describe("ClauseAssistDrawer", () => {
         open
         onClose={vi.fn()}
         selectedIds={[]}
-        activeCategory="ortho_plastic"
+        activeCategory="neuro_psych"
         onCategoryChange={vi.fn()}
         onSelect={vi.fn()}
       />,
@@ -43,7 +43,7 @@ describe("ClauseAssistDrawer", () => {
 
     await user.type(
       screen.getByPlaceholderText("搜索条款编号、等级或摘要"),
-      "截瘫",
+      "精神病性症状",
     );
     expect(screen.getByText("5.3.2_1 三级")).toBeInTheDocument();
     expect(screen.queryByText("5.1.2_1 一级")).not.toBeInTheDocument();
@@ -55,7 +55,7 @@ describe("ClauseAssistDrawer", () => {
         open
         onClose={vi.fn()}
         selectedIds={["5.3.2_1"]}
-        activeCategory="ortho_plastic"
+        activeCategory="neuro_psych"
         onCategoryChange={vi.fn()}
         onSelect={vi.fn()}
       />,

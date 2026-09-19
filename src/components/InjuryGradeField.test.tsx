@@ -18,8 +18,7 @@ describe("InjuryGradeField", () => {
     expect(screen.getByText("尚未选择条款")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "辅助工具" }));
-    await user.click(screen.getByText("骨科、整形外科、烧伤科门"));
-
+    // Default tab is already neuro_psych
     const clauseMeta = await screen.findByText("5.3.2_1 三级");
     await user.click(clauseMeta);
 
