@@ -1,0 +1,36 @@
+.asset-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.asset-card {
+  text-align: left;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+}
+
+.asset-card__title {
+  margin: 0 0 8px !important;
+}
+
+.asset-card__note {
+  margin-bottom: 10px !important;
+  font-size: 12px;
+}
+
+.asset-figure {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background: #f8fafc;
+  border-radius: 6px;
+}
+
+.asset-empty {
+  padding: 24px;
+  color: #94a3b8;
+  text-align: center;
+}
