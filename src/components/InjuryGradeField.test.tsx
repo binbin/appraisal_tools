@@ -18,14 +18,13 @@ describe("InjuryGradeField", () => {
     expect(screen.getByText("尚未选择条款")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "辅助工具" }));
-    // Default tab is already neuro_psych
-    const clauseMeta = await screen.findByText("5.3.2_1 三级");
+    const clauseMeta = await screen.findByText("3_1 三级");
     await user.click(clauseMeta);
 
     await waitFor(() => {
       expect(
         document.querySelector(".selected-clause-text")?.textContent,
-      ).toBe("5.3.2_1 三级");
+      ).toBe("3_1 三级");
     });
     expect(screen.queryByText("尚未选择条款")).not.toBeInTheDocument();
 

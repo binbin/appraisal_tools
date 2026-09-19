@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { CATEGORY_OPTIONS } from "../types/clause";
 import { INJURY_CLAUSES } from "./gb-t16180-2014";
 
-const SUB_CLAUSE_CODE_PATTERN = /^5\.(?:[1-9]|10)\.2_\d+$/;
+const SUB_CLAUSE_CODE_PATTERN = /^(?:[1-9]|10)_\d+$/;
 const EXPECTED_TOTAL = 530;
 
 describe("INJURY_CLAUSES", () => {
@@ -37,7 +37,7 @@ describe("INJURY_CLAUSES", () => {
     );
   });
 
-  it("has unique ids and detailed sub-clause codes", () => {
+  it("has unique ids and short sub-clause codes", () => {
     const ids = INJURY_CLAUSES.map((clause) => clause.id);
     expect(new Set(ids).size).toBe(ids.length);
     for (const clause of INJURY_CLAUSES) {
@@ -47,9 +47,12 @@ describe("INJURY_CLAUSES", () => {
     }
   });
 
-  it("includes known anchors like 5.3.2_1", () => {
-    const clause = INJURY_CLAUSES.find((item) => item.code === "5.3.2_1");
-    expect(clause?.grade).toBe("三级");
-    expect(clause?.summary).toContain("精神病性症状");
+  it("includes known anchors like 3_1 and 5_5", () => {
+    const threeOne = INJURY_CLAUSES.find((item) => item.code === "3_1");
+    expect(threeOne?.grade).toBe("三级");
+    expect(threeOne?.summary).toContain("精神病性症状");
+
+    const fiveFive = INJURY_CLAUSES.find((item) => item.code === "5_5");
+    expect(fiveFive?.grade).toBe("五级");
   });
 });
