@@ -96,7 +96,7 @@ src/
 2. 按当前门类 + 关键词过滤条款列表
 3. 用户点击某条款
 4. `formatClause(clause)` → `"编号 等级"`
-5. 写入非受控 Input 的 DOM value / 受控写入桥接后关闭抽屉
+5. 通过 Input 的 ref 写入 value（保持非受控），然后关闭抽屉
 
 ## 7. 边界情况
 
