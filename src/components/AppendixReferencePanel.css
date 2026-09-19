@@ -1,0 +1,88 @@
+.appendix-framework {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  background: #f8fafc;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.appendix-framework__title {
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.appendix-framework__list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.55;
+}
+
+.appendix-framework__list li + li {
+  margin-top: 4px;
+}
+
+.appendix-framework__role {
+  margin: 0 6px;
+  color: #2563eb;
+}
+
+.appendix-panel {
+  text-align: left;
+}
+
+.appendix-panel__role {
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #2563eb;
+}
+
+.appendix-panel__title {
+  margin: 0 0 8px !important;
+}
+
+.appendix-panel__body {
+  margin: 0;
+  max-height: calc(100vh - 280px);
+  overflow: auto;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #334155;
+  background: #fff;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+}
+
+.appendix-c-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.appendix-c-item {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #0f172a;
+  background: #fff;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.appendix-c-item:hover {
+  border-color: #69b1ff;
+  background: #f0f7ff;
+}
