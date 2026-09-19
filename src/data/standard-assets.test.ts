@@ -48,4 +48,31 @@ describe("STANDARD_ASSETS", () => {
       expect.arrayContaining(["B.1", "B.2", "fig-B.1", "fig-B.2"]),
     );
   });
+
+  it("keeps A.3 compensation matrix cells aligned with GB/T 16180", () => {
+    const tableA3 = STANDARD_ASSETS.find((asset) => asset.id === "A.3");
+    expect(tableA3?.kind).toBe("table");
+    if (!tableA3 || tableA3.kind !== "table") {
+      return;
+    }
+    const byLeft = Object.fromEntries(
+      tableA3.rows.map((row) => [row.left, row]),
+    );
+    expect(byLeft["0.15"].c13).toBe("83");
+    expect(byLeft["0.1"].c11).toBe("80");
+    expect(byLeft["1/15"].c11).toBe("92");
+    expect(byLeft["1~0.9"].c1).toBe("0");
+    expect(byLeft["<1/20"].c13).toBe("100");
+  });
+
+  it("keeps A.4 grade mapping complete", () => {
+    const tableA4 = STANDARD_ASSETS.find((asset) => asset.id === "A.4");
+    expect(tableA4?.kind).toBe("table");
+    if (!tableA4 || tableA4.kind !== "table") {
+      return;
+    }
+    expect(tableA4.rows).toHaveLength(10);
+    expect(tableA4.rows[2]).toMatchObject({ grade: "三级", rate: "100" });
+    expect(tableA4.rows[9]).toMatchObject({ grade: "十级", rate: "0～7" });
+  });
 });
