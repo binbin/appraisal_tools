@@ -2,6 +2,8 @@ import { describe, expect, it } from "vitest";
 import { CATEGORY_OPTIONS } from "../types/clause";
 import { INJURY_CLAUSES } from "./gb-t16180-2014";
 
+const SUB_CLAUSE_CODE_PATTERN = /^5\.\d{1,2}\.[1-5]_\d+$/;
+
 describe("INJURY_CLAUSES", () => {
   it("covers all five specialty categories", () => {
     for (const option of CATEGORY_OPTIONS) {
@@ -15,5 +17,12 @@ describe("INJURY_CLAUSES", () => {
   it("has unique ids", () => {
     const ids = INJURY_CLAUSES.map((clause) => clause.id);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it("uses detailed sub-clause codes like 5.3.2_1", () => {
+    for (const clause of INJURY_CLAUSES) {
+      expect(clause.code).toMatch(SUB_CLAUSE_CODE_PATTERN);
+      expect(clause.id).toBe(clause.code);
+    }
   });
 });

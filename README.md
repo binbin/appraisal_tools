@@ -21,4 +21,5 @@ pnpm test
 
 ## 扩展条款数据
 
-编辑 `src/data/gb-t16180-2014.ts`，按 `InjuryClause` 结构追加条目即可，无需改 UI。
+编辑 `src/data/gb-t16180-2014.ts`，按 `InjuryClause` 结构追加条目即可。
+子条款编号格式为 `5.{等级}.{门类}_{条目}`，例如 `5.3.2_1`。

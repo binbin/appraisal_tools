@@ -2,7 +2,9 @@ import { describe, expect, it } from "vitest";
 import { formatClause } from "./formatClause";
 
 describe("formatClause", () => {
-  it("joins code and grade with a space", () => {
-    expect(formatClause({ code: "5.9.2", grade: "九级" })).toBe("5.9.2 九级");
+  it("joins sub-clause code and grade with a space", () => {
+    expect(formatClause({ code: "5.3.2_1", grade: "三级" })).toBe(
+      "5.3.2_1 三级",
+    );
   });
 });

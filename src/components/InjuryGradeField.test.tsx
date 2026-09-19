@@ -20,13 +20,13 @@ describe("InjuryGradeField", () => {
     await user.click(screen.getByRole("button", { name: "辅助工具" }));
     await user.click(screen.getByText("骨科、整形外科、烧伤科门"));
 
-    const nineGradeMeta = await screen.findByText("5.9.2 九级");
-    await user.click(nineGradeMeta);
+    const clauseMeta = await screen.findByText("5.3.2_1 三级");
+    await user.click(clauseMeta);
 
     await waitFor(() => {
       expect(
         document.querySelector(".selected-clause-text")?.textContent,
-      ).toBe("5.9.2 九级");
+      ).toBe("5.3.2_1 三级");
     });
     expect(screen.queryByText("尚未选择条款")).not.toBeInTheDocument();
 
@@ -34,7 +34,7 @@ describe("InjuryGradeField", () => {
       screen.getByText("工伤伤残等级条款（GB/T 16180—2014）"),
     ).toBeInTheDocument();
 
-    await user.click(nineGradeMeta);
+    await user.click(clauseMeta);
     expect(message.info).toHaveBeenCalledWith("已添加");
     expect(document.querySelectorAll(".selected-clause-text")).toHaveLength(1);
 

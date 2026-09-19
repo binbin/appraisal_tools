@@ -5,10 +5,10 @@ import type { InjuryClause } from "../types/clause";
 import { SelectedClauseList } from "./SelectedClauseList";
 
 const CLAUSE: InjuryClause = {
-  id: "5.9.2-1",
-  code: "5.9.2",
-  grade: "九级",
-  summary: "一拇指远侧指间关节离断",
+  id: "5.3.2_1",
+  code: "5.3.2_1",
+  grade: "三级",
+  summary: "截瘫肌力≤4级",
   category: "ortho_plastic",
 };
 
@@ -24,8 +24,8 @@ describe("SelectedClauseList", () => {
     render(
       <SelectedClauseList clauses={[CLAUSE]} onRemove={onRemove} />,
     );
-    expect(screen.getByText("5.9.2 九级")).toBeInTheDocument();
+    expect(screen.getByText("5.3.2_1 三级")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "删除条款" }));
-    expect(onRemove).toHaveBeenCalledWith("5.9.2-1");
+    expect(onRemove).toHaveBeenCalledWith("5.3.2_1");
   });
 });
