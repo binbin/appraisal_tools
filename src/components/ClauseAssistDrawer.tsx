@@ -7,7 +7,6 @@ import {
   type SpecialtyCategory,
 } from "../types/clause";
 import { filterClauses } from "../utils/filterClauses";
-import { formatClause } from "../utils/formatClause";
 import "./ClauseAssistDrawer.css";
 
 export type ClauseAssistDrawerProps = {
@@ -94,7 +93,7 @@ export function ClauseAssistDrawer({
                     onClick={() => onSelect(clause)}
                   >
                     <span className="clause-item__meta">
-                      {formatClause(clause)}
+                      {clause.code} {clause.grade}
                     </span>
                     <span className="clause-item__summary">
                       {clause.summary}

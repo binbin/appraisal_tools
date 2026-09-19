@@ -4,6 +4,8 @@ import { message } from "antd";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { InjuryGradeField } from "./InjuryGradeField";
 
+const SELECTED_LABEL = "1_3 重度非肢体瘫运动障碍";
+
 describe("InjuryGradeField", () => {
   beforeEach(() => {
     vi.spyOn(message, "info").mockImplementation(
@@ -18,13 +20,13 @@ describe("InjuryGradeField", () => {
     expect(screen.getByText("尚未选择条款")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "辅助工具" }));
-    const clauseMeta = await screen.findByText("3_1 三级");
+    const clauseMeta = await screen.findByText("1_3 一级");
     await user.click(clauseMeta);
 
     await waitFor(() => {
       expect(
         document.querySelector(".selected-clause-text")?.textContent,
-      ).toBe("3_1 三级");
+      ).toBe(SELECTED_LABEL);
     });
     expect(screen.queryByText("尚未选择条款")).not.toBeInTheDocument();
 
