@@ -3,11 +3,11 @@ import {
   APPENDIX_DATASET,
   getAppendixSection,
   type AppendixKind,
-} from "../appraisal/data/gb-t16180-appendices";
-import { getAssetsForCategory } from "../appraisal/data/standard-assets";
-import type { InjuryClause, SpecialtyCategory } from "../appraisal/types/clause";
+} from "../data/gb-t16180-appendices";
+import { getAssetsForCategory } from "../data/standard-assets";
+import type { InjuryClause, SpecialtyCategory } from "../types/clause";
 import { StandardAssetGallery } from "./StandardAssetGallery";
-import "../appraisal/shared/reference-panel.css";
+import "../shared/reference-panel.css";
 
 export type AppendixReferencePanelProps = {
   kind: AppendixKind;

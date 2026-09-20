@@ -1,19 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
 import { Drawer, Empty, Input, Tabs } from "antd";
-import { INJURY_CLAUSES } from "../appraisal/data/gb-t16180-2014";
-import type { AppendixKind } from "../appraisal/data/gb-t16180-appendices";
+import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
+import type { AppendixKind } from "../data/gb-t16180-appendices";
 import {
   CATEGORY_OPTIONS,
   type InjuryClause,
   type SpecialtyCategory,
-} from "../appraisal/types/clause";
-import { filterClauses } from "../appraisal/utils/filterClauses";
+} from "../types/clause";
+import { filterClauses } from "../utils/filterClauses";
 import {
   AppendixFrameworkHint,
   AppendixReferencePanel,
 } from "./AppendixReferencePanel";
-import { NotApplicableAction } from "../appraisal/shared/NotApplicableAction";
-import "../appraisal/shared/clause-list.css";
+import { NotApplicableAction } from "../shared/NotApplicableAction";
+import "../shared/clause-list.css";
 
 export type ClauseAssistDrawerProps = {
   open: boolean;

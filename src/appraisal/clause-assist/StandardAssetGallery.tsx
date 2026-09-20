@@ -5,14 +5,14 @@ import {
   GRADE_COLUMN_KEYS,
   GRADE_COLUMN_LABELS,
   type AppendixCMatrixRow,
-} from "../appraisal/data/appendix-c-tables";
+} from "../data/appendix-c-tables";
 import {
   getAssetsForCategory,
   type StandardAsset,
   type StandardFigureAsset,
   type StandardTableAsset,
-} from "../appraisal/data/standard-assets";
-import type { InjuryClause, SpecialtyCategory } from "../appraisal/types/clause";
+} from "../data/standard-assets";
+import type { InjuryClause, SpecialtyCategory } from "../types/clause";
 import "./StandardAssetGallery.css";
 
 export type StandardAssetGalleryProps = {
