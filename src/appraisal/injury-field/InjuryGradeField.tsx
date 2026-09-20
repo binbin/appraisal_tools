@@ -7,24 +7,24 @@ import {
   nonWorkResultFromInjuryGrade,
   type InjuryResultOption,
   type NonWorkResultOption,
-} from "../appraisal/types/appraisalResult";
-import type { InjuryClause, SpecialtyCategory } from "../appraisal/types/clause";
+} from "../types/appraisalResult";
+import type { InjuryClause, SpecialtyCategory } from "../types/clause";
 import type {
   DisabilityDegree,
   NonWorkDisabilityClause,
-} from "../appraisal/types/nonWorkDisability";
+} from "../types/nonWorkDisability";
 import {
   formatClause,
   INJURY_CITATION_PREFIX,
   INJURY_NOT_APPLICABLE_TEXT,
-} from "../appraisal/utils/formatClause";
+} from "../utils/formatClause";
 import {
   formatNonWorkClause,
   formatNonWorkInjuryClause,
   NON_WORK_NOT_APPLICABLE_TEXT,
-} from "../appraisal/utils/formatNonWorkClause";
-import { ClauseAssistDrawer } from "../appraisal/clause-assist/ClauseAssistDrawer";
-import { NonWorkDisabilityDrawer } from "../appraisal/non-work/NonWorkDisabilityDrawer";
+} from "../utils/formatNonWorkClause";
+import { ClauseAssistDrawer } from "../clause-assist/ClauseAssistDrawer";
+import { NonWorkDisabilityDrawer } from "../non-work/NonWorkDisabilityDrawer";
 import { ResultOptionBar } from "./ResultOptionBar";
 import "./InjuryGradeField.css";
 

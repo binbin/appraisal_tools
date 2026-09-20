@@ -1,5 +1,5 @@
 import "./App.css";
-import { InjuryGradeField } from "./components/InjuryGradeField";
+import { InjuryGradeField } from "./appraisal";
 
 function App() {
   return (

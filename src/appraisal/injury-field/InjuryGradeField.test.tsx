@@ -1,12 +1,12 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it } from "vitest";
-import { INJURY_CITATION_PREFIX, INJURY_NOT_APPLICABLE_TEXT } from "../appraisal/utils/formatClause";
+import { INJURY_CITATION_PREFIX, INJURY_NOT_APPLICABLE_TEXT } from "../utils/formatClause";
 import {
   GB_COMPLETE_CITATION_PREFIX,
   LABOR_2002_CITATION_PREFIX,
   NON_WORK_NOT_APPLICABLE_TEXT,
-} from "../appraisal/utils/formatNonWorkClause";
+} from "../utils/formatNonWorkClause";
 import { InjuryGradeField } from "./InjuryGradeField";
 
 const FIRST_LABEL = `${INJURY_CITATION_PREFIX}1.3 重度非肢体瘫运动障碍`;
