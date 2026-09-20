@@ -1,8 +1,100 @@
 .injury-grade-field {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   text-align: left;
+}
+
+.appraisal-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.appraisal-block__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
 }
 
 .injury-grade-field__input-row {
   display: flex;
   width: 100%;
+}
+
+.appraisal-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.appraisal-input-field__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.result-option-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 选中态：加重对比，锁定后也不淡化 */
+.result-option-bar .ant-btn-primary {
+  font-weight: 600;
+  box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.28);
+}
+
+.result-option-bar--locked {
+  pointer-events: none;
+}
+
+.result-option-bar--locked .ant-btn {
+  cursor: not-allowed;
+}
+
+.result-option-bar--locked .ant-btn-primary,
+.result-option-bar--locked .ant-btn-primary.ant-btn-disabled,
+.result-option-bar--locked .ant-btn-primary:disabled {
+  opacity: 1;
+  color: #fff !important;
+  background: #1677ff !important;
+  border-color: #1677ff !important;
+  text-shadow: none;
+  box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.35);
+}
+
+.result-option-bar--locked .ant-btn-default,
+.result-option-bar--locked .ant-btn-default.ant-btn-disabled,
+.result-option-bar--locked .ant-btn-default:disabled {
+  opacity: 0.5;
+  color: rgba(0, 0, 0, 0.35) !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+  border-color: #e5e5e5 !important;
+  box-shadow: none;
+}
+
+/* 只读 Input：对齐 antd disabled 观感，仍可复制 */
+.appraisal-input--readonly.ant-input,
+.appraisal-input--readonly.ant-input-outlined {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: #d9d9d9;
+  cursor: default;
+  box-shadow: none;
+}
+
+.appraisal-input--readonly.ant-input:hover,
+.appraisal-input--readonly.ant-input-outlined:hover,
+.appraisal-input--readonly.ant-input:focus,
+.appraisal-input--readonly.ant-input-outlined:focus {
+  border-color: #d9d9d9;
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow: none;
 }

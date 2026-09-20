@@ -1,17 +1,18 @@
 import { useEffect, useMemo, useState } from "react";
 import { Drawer, Empty, Input, Tabs } from "antd";
-import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
-import type { AppendixKind } from "../data/gb-t16180-appendices";
+import { INJURY_CLAUSES } from "../appraisal/data/gb-t16180-2014";
+import type { AppendixKind } from "../appraisal/data/gb-t16180-appendices";
 import {
   CATEGORY_OPTIONS,
   type InjuryClause,
   type SpecialtyCategory,
-} from "../types/clause";
-import { filterClauses } from "../utils/filterClauses";
+} from "../appraisal/types/clause";
+import { filterClauses } from "../appraisal/utils/filterClauses";
 import {
   AppendixFrameworkHint,
   AppendixReferencePanel,
 } from "./AppendixReferencePanel";
+import { NotApplicableAction } from "./NotApplicableAction";
 import "./ClauseAssistDrawer.css";
 
 export type ClauseAssistDrawerProps = {
@@ -21,6 +22,7 @@ export type ClauseAssistDrawerProps = {
   activeCategory: SpecialtyCategory;
   onCategoryChange: (category: SpecialtyCategory) => void;
   onSelect: (clause: InjuryClause) => void;
+  onNotApplicable: () => void;
 };
 
 type ContentMode = "clauses" | AppendixKind;
@@ -38,6 +40,7 @@ export function ClauseAssistDrawer({
   activeCategory,
   onCategoryChange,
   onSelect,
+  onNotApplicable,
 }: ClauseAssistDrawerProps) {
   const [keyword, setKeyword] = useState("");
   const [contentMode, setContentMode] = useState<ContentMode>("clauses");
@@ -64,6 +67,8 @@ export function ClauseAssistDrawer({
       onClose={onClose}
       destroyOnHidden
     >
+      <NotApplicableAction onNotApplicable={onNotApplicable} />
+
       <AppendixFrameworkHint />
 
       <Tabs

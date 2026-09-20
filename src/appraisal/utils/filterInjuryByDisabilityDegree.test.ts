@@ -1,0 +1,55 @@
+import { describe, expect, it } from "vitest";
+import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
+import {
+  filterInjuryClausesByDisabilityDegree,
+  filterInjuryClausesForNonWorkGb,
+  gradesForDisabilityDegree,
+} from "./filterInjuryByDisabilityDegree";
+
+describe("filterInjuryClausesByDisabilityDegree", () => {
+  it("maps complete loss to grades 1-4 only", () => {
+    expect([...gradesForDisabilityDegree("complete")]).toEqual([
+      "一级",
+      "二级",
+      "三级",
+      "四级",
+    ]);
+    const result = filterInjuryClausesByDisabilityDegree(
+      INJURY_CLAUSES,
+      "complete",
+    );
+    expect(result.length).toBeGreaterThan(0);
+    expect(
+      result.every((clause) =>
+        ["一级", "二级", "三级", "四级"].includes(clause.grade),
+      ),
+    ).toBe(true);
+  });
+
+  it("maps major loss to grades 5-6 only and hides below grade 6", () => {
+    const result = filterInjuryClausesByDisabilityDegree(
+      INJURY_CLAUSES,
+      "major",
+    );
+    expect(result.length).toBeGreaterThan(0);
+    expect(
+      result.every((clause) => ["五级", "六级"].includes(clause.grade)),
+    ).toBe(true);
+    expect(result.some((clause) => clause.grade === "七级")).toBe(false);
+  });
+});
+
+describe("filterInjuryClausesForNonWorkGb", () => {
+  it("keeps grades 1-6 and hides grade 7+", () => {
+    const result = filterInjuryClausesForNonWorkGb(INJURY_CLAUSES);
+    expect(result.length).toBeGreaterThan(0);
+    expect(
+      result.every((clause) =>
+        ["一级", "二级", "三级", "四级", "五级", "六级"].includes(
+          clause.grade,
+        ),
+      ),
+    ).toBe(true);
+    expect(result.some((clause) => clause.grade === "七级")).toBe(false);
+  });
+});

@@ -3,8 +3,9 @@ import {
   APPENDIX_DATASET,
   getAppendixSection,
   type AppendixKind,
-} from "../data/gb-t16180-appendices";
-import type { InjuryClause, SpecialtyCategory } from "../types/clause";
+} from "../appraisal/data/gb-t16180-appendices";
+import { getAssetsForCategory } from "../appraisal/data/standard-assets";
+import type { InjuryClause, SpecialtyCategory } from "../appraisal/types/clause";
 import { StandardAssetGallery } from "./StandardAssetGallery";
 import "./AppendixReferencePanel.css";
 
@@ -39,6 +40,25 @@ export function AppendixReferencePanel({
     return <Empty description="暂无该门类附录内容" />;
   }
 
+  const appendixBody = (
+    <>
+      <Typography.Title level={5} className="appendix-panel__title">
+        {section.title}
+      </Typography.Title>
+      <pre className="appendix-panel__body">{section.body}</pre>
+    </>
+  );
+
+  const structuredAssets = getAssetsForCategory(category, kind);
+  if (structuredAssets.length === 0) {
+    return (
+      <div className="appendix-panel">
+        <div className="appendix-panel__role">{section.role}</div>
+        {appendixBody}
+      </div>
+    );
+  }
+
   return (
     <div className="appendix-panel">
       <div className="appendix-panel__role">{section.role}</div>
@@ -59,14 +79,7 @@ export function AppendixReferencePanel({
           {
             key: "text",
             label: "附录正文",
-            children: (
-              <>
-                <Typography.Title level={5} className="appendix-panel__title">
-                  {section.title}
-                </Typography.Title>
-                <pre className="appendix-panel__body">{section.body}</pre>
-              </>
-            ),
+            children: appendixBody,
           },
         ]}
       />
