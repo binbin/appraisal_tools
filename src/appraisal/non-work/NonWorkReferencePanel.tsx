@@ -2,8 +2,8 @@ import { Typography } from "antd";
 import {
   getNonWorkReferenceSection,
   type NonWorkReferenceKind,
-} from "../appraisal/data/non-work-disability-reference";
-import "../appraisal/shared/reference-panel.css";
+} from "../data/non-work-disability-reference";
+import "../shared/reference-panel.css";
 
 export type NonWorkReferencePanelProps = {
   kind: NonWorkReferenceKind;

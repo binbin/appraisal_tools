@@ -1,24 +1,24 @@
 import { useEffect, useMemo, useState } from "react";
 import { Drawer, Empty, Input, Tabs } from "antd";
-import { INJURY_CLAUSES } from "../appraisal/data/gb-t16180-2014";
-import { NON_WORK_DISABILITY_CLAUSES } from "../appraisal/data/non-work-disability-2002";
-import type { NonWorkReferenceKind } from "../appraisal/data/non-work-disability-reference";
+import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
+import { NON_WORK_DISABILITY_CLAUSES } from "../data/non-work-disability-2002";
+import type { NonWorkReferenceKind } from "../data/non-work-disability-reference";
 import {
   CATEGORY_OPTIONS,
   type InjuryClause,
   type SpecialtyCategory,
-} from "../appraisal/types/clause";
+} from "../types/clause";
 import {
   DEGREE_OPTIONS,
   type DisabilityDegree,
   type NonWorkDisabilityClause,
-} from "../appraisal/types/nonWorkDisability";
-import { filterClauses } from "../appraisal/utils/filterClauses";
-import { filterInjuryClausesForNonWorkGb } from "../appraisal/utils/filterInjuryByDisabilityDegree";
-import { filterNonWorkClauses } from "../appraisal/utils/filterNonWorkClauses";
+} from "../types/nonWorkDisability";
+import { filterClauses } from "../utils/filterClauses";
+import { filterInjuryClausesForNonWorkGb } from "../utils/filterInjuryByDisabilityDegree";
+import { filterNonWorkClauses } from "../utils/filterNonWorkClauses";
 import { NonWorkReferencePanel } from "./NonWorkReferencePanel";
-import { NotApplicableAction } from "../appraisal/shared/NotApplicableAction";
-import "../appraisal/shared/clause-list.css";
+import { NotApplicableAction } from "../shared/NotApplicableAction";
+import "../shared/clause-list.css";
 
 export type NonWorkStandardSource = "labor_2002" | "gb_t16180";
 

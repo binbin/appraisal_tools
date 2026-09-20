@@ -24,7 +24,7 @@ import {
   NON_WORK_NOT_APPLICABLE_TEXT,
 } from "../appraisal/utils/formatNonWorkClause";
 import { ClauseAssistDrawer } from "../appraisal/clause-assist/ClauseAssistDrawer";
-import { NonWorkDisabilityDrawer } from "./NonWorkDisabilityDrawer";
+import { NonWorkDisabilityDrawer } from "../appraisal/non-work/NonWorkDisabilityDrawer";
 import { ResultOptionBar } from "./ResultOptionBar";
 import "./InjuryGradeField.css";
 
