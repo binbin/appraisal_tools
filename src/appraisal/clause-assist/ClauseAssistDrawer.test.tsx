@@ -22,11 +22,11 @@ describe("ClauseAssistDrawer", () => {
     expect(
       screen.getByText("神经内科、神经外科、精神科门"),
     ).toBeInTheDocument();
-    expect(screen.getByText("3.1 3级")).toBeInTheDocument();
+    expect(screen.getByText("5.3.2(1) 3级")).toBeInTheDocument();
 
-    await user.click(screen.getByText("3.1 3级"));
+    await user.click(screen.getByText("5.3.2(1) 3级"));
     expect(onSelect).toHaveBeenCalledTimes(1);
-    expect(onSelect.mock.calls[0][0].id).toBe("3.1");
+    expect(onSelect.mock.calls[0][0].id).toBe("5.3.2(1)");
   });
 
   it("filters by keyword within category", async () => {
@@ -37,12 +37,12 @@ describe("ClauseAssistDrawer", () => {
       screen.getByPlaceholderText("搜索条款编号、等级或摘要"),
       "精神病性症状",
     );
-    expect(screen.getByText("3.1 3级")).toBeInTheDocument();
-    expect(screen.queryByText("1.1 1级")).not.toBeInTheDocument();
+    expect(screen.getByText("5.3.2(1) 3级")).toBeInTheDocument();
+    expect(screen.queryByText("5.1.2(1) 1级")).not.toBeInTheDocument();
   });
 
   it("marks selected clauses with highlight class", () => {
-    render(<ClauseAssistDrawer {...baseProps} selectedIds={["3.1"]} />);
+    render(<ClauseAssistDrawer {...baseProps} selectedIds={["5.3.2(1)"]} />);
     expect(document.querySelector(".clause-item--selected")).toBeTruthy();
   });
 

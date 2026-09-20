@@ -9,10 +9,10 @@ import {
 } from "../utils/formatNonWorkClause";
 import { InjuryGradeField } from "./InjuryGradeField";
 
-const FIRST_LABEL = `${INJURY_CITATION_PREFIX}1.3 重度非肢体瘫运动障碍`;
-const SECOND_LABEL = `${INJURY_CITATION_PREFIX}1.1 极重度智能损伤`;
+const FIRST_LABEL = `${INJURY_CITATION_PREFIX}5.1.2(3) 重度非肢体瘫运动障碍`;
+const SECOND_LABEL = `${INJURY_CITATION_PREFIX}5.1.2(1) 极重度智能损伤`;
 const NON_WORK_LABEL = `${LABOR_2002_CITATION_PREFIX}4.1.2 长期重度呼吸困难`;
-const NON_WORK_GB_LABEL = `${GB_COMPLETE_CITATION_PREFIX}1.3 重度非肢体瘫运动障碍`;
+const NON_WORK_GB_LABEL = `${GB_COMPLETE_CITATION_PREFIX}5.1.2(3) 重度非肢体瘫运动障碍`;
 const ASSIST_TOOL_NAME = "选择";
 
 function getAssistButtons(): HTMLElement[] {
@@ -53,7 +53,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.3 1级"));
+    await user.click(await screen.findByText("5.1.2(3) 1级"));
 
     await waitFor(() => {
       expect(
@@ -80,7 +80,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.3 1级"));
+    await user.click(await screen.findByText("5.1.2(3) 1级"));
 
     await waitFor(() => {
       expect(
@@ -89,7 +89,7 @@ describe("InjuryGradeField", () => {
     });
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.1 1级"));
+    await user.click(await screen.findByText("5.1.2(1) 1级"));
 
     await waitFor(() => {
       expect(
@@ -129,7 +129,7 @@ describe("InjuryGradeField", () => {
 
     await user.click(getAssistButtons()[1]);
     await user.click(screen.getByText("GB/T 16180—2014"));
-    await user.click(await screen.findByText("1.3 1级"));
+    await user.click(await screen.findByText("5.1.2(3) 1级"));
 
     await waitFor(() => {
       expect(

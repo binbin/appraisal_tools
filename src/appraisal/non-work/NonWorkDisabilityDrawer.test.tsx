@@ -57,13 +57,13 @@ describe("NonWorkDisabilityDrawer", () => {
     expect(
       screen.queryByRole("tab", { name: "大部分丧失劳动能力" }),
     ).not.toBeInTheDocument();
-    expect(screen.getByText("1.3 1级")).toBeInTheDocument();
-    expect(screen.getByText("5.6 5级")).toBeInTheDocument();
-    expect(screen.queryByText("7.6 7级")).not.toBeInTheDocument();
+    expect(screen.getByText("5.1.2(3) 1级")).toBeInTheDocument();
+    expect(screen.getByText("5.5.2(6) 5级")).toBeInTheDocument();
+    expect(screen.queryByText("5.7.2(6) 7级")).not.toBeInTheDocument();
 
-    await user.click(screen.getByText("1.3 1级"));
+    await user.click(screen.getByText("5.1.2(3) 1级"));
     expect(onSelect).toHaveBeenCalledTimes(1);
-    expect(onSelect.mock.calls[0][0].id).toBe("1.3");
+    expect(onSelect.mock.calls[0][0].id).toBe("5.1.2(3)");
   });
 
   it("shows judgment principles and criteria under labor-2002", async () => {

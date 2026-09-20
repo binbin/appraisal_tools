@@ -5,9 +5,9 @@ describe("formatClause", () => {
   it("prefixes GB/T citation then joins code and summary", () => {
     expect(
       formatClause({
-        code: "1.3",
+        code: "5.1.2(3)",
         summary: "重度非肢体瘫运动障碍",
       }),
-    ).toBe(`${INJURY_CITATION_PREFIX}1.3 重度非肢体瘫运动障碍`);
+    ).toBe(`${INJURY_CITATION_PREFIX}5.1.2(3) 重度非肢体瘫运动障碍`);
   });
 });
