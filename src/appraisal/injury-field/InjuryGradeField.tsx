@@ -28,6 +28,8 @@ import { NonWorkDisabilityDrawer } from "../non-work/NonWorkDisabilityDrawer";
 import { ResultOptionBar } from "./ResultOptionBar";
 import "./InjuryGradeField.css";
 
+const { TextArea } = Input;
+
 function degreeFromNonWorkResult(
   result: NonWorkResultOption,
 ): DisabilityDegree | null {
@@ -48,7 +50,8 @@ export function InjuryGradeField() {
   const [injuryResult, setInjuryResult] = useState<InjuryResultOption | null>(
     null,
   );
-  const [injuryLocked, setInjuryLocked] = useState(false);
+  // 打开即只读：结论按钮与 TextArea 仅由辅助工具写入，不可手改
+  const [injuryLocked, setInjuryLocked] = useState(true);
   const [injuryInputKey, setInjuryInputKey] = useState(0);
   const [injuryInputDefaultValue, setInjuryInputDefaultValue] = useState("");
   const [activeCategory, setActiveCategory] =
@@ -60,7 +63,7 @@ export function InjuryGradeField() {
   >(null);
   const [nonWorkResult, setNonWorkResult] =
     useState<NonWorkResultOption | null>(null);
-  const [nonWorkLocked, setNonWorkLocked] = useState(false);
+  const [nonWorkLocked, setNonWorkLocked] = useState(true);
   const [nonWorkInputKey, setNonWorkInputKey] = useState(0);
   const [nonWorkInputDefaultValue, setNonWorkInputDefaultValue] =
     useState("");
@@ -177,19 +180,20 @@ export function InjuryGradeField() {
             鉴定依据
           </label>
           <Space.Compact className="injury-grade-field__input-row">
-            <Input
+            <TextArea
               key={injuryInputKey}
               id="injuryGrade"
               name="injuryGrade"
               placeholder="尚未选择工伤条款"
               defaultValue={injuryInputDefaultValue}
               readOnly={injuryLocked}
+              autoSize={{ minRows: 1, maxRows: 6 }}
               className={
                 injuryLocked ? "appraisal-input--readonly" : undefined
               }
             />
             <Button type="primary" onClick={() => setInjuryOpen(true)}>
-              工伤判定辅助工具
+              选择
             </Button>
           </Space.Compact>
         </div>
@@ -213,19 +217,20 @@ export function InjuryGradeField() {
             鉴定依据
           </label>
           <Space.Compact className="injury-grade-field__input-row">
-            <Input
+            <TextArea
               key={nonWorkInputKey}
               id="nonWorkDisability"
               name="nonWorkDisability"
               placeholder="尚未选择非因工条款"
               defaultValue={nonWorkInputDefaultValue}
               readOnly={nonWorkLocked}
+              autoSize={{ minRows: 1, maxRows: 6 }}
               className={
                 nonWorkLocked ? "appraisal-input--readonly" : undefined
               }
             />
             <Button type="primary" onClick={() => setNonWorkOpen(true)}>
-              非因工伤残或因病丧失判定辅助工具
+              选择
             </Button>
           </Space.Compact>
         </div>

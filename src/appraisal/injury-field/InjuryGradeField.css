@@ -80,14 +80,16 @@
   box-shadow: none;
 }
 
-/* 只读 Input：对齐 antd disabled 观感，仍可复制 */
+/* 只读 TextArea：对齐 antd disabled 观感，仍可复制 */
 .appraisal-input--readonly.ant-input,
-.appraisal-input--readonly.ant-input-outlined {
+.appraisal-input--readonly.ant-input-outlined,
+.appraisal-input--readonly.ant-input-textarea {
   color: rgba(0, 0, 0, 0.65);
   background-color: rgba(0, 0, 0, 0.04);
   border-color: #d9d9d9;
   cursor: default;
   box-shadow: none;
+  resize: none;
 }
 
 .appraisal-input--readonly.ant-input:hover,
