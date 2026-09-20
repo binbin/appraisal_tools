@@ -159,7 +159,7 @@ export function InjuryGradeField() {
 
   function handleNonWorkNotApplicable(): void {
     lockNonWork(
-      "不符合完全或大部分丧失劳动能力",
+      "未达到完全或大部分丧失劳动能力",
       NON_WORK_NOT_APPLICABLE_TEXT,
       null,
     );
@@ -192,7 +192,11 @@ export function InjuryGradeField() {
                 injuryLocked ? "appraisal-input--readonly" : undefined
               }
             />
-            <Button type="primary" onClick={() => setInjuryOpen(true)}>
+            <Button
+              type="primary"
+              autoInsertSpace={false}
+              onClick={() => setInjuryOpen(true)}
+            >
               选择
             </Button>
           </Space.Compact>
@@ -229,7 +233,11 @@ export function InjuryGradeField() {
                 nonWorkLocked ? "appraisal-input--readonly" : undefined
               }
             />
-            <Button type="primary" onClick={() => setNonWorkOpen(true)}>
+            <Button
+              type="primary"
+              autoInsertSpace={false}
+              onClick={() => setNonWorkOpen(true)}
+            >
               选择
             </Button>
           </Space.Compact>

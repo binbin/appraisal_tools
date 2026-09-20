@@ -27,7 +27,7 @@ describe("InjuryGradeField", () => {
     expect(injuryInput).toHaveValue("");
     expect(injuryInput).toHaveAttribute("readonly");
     expect(injuryInput).toHaveClass("appraisal-input--readonly");
-    expect(screen.getByRole("button", { name: "一级" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "1级" })).toBeDisabled();
     expect(screen.getByRole("button", { name: "无级别" })).toBeDisabled();
 
     const nonWorkInput = screen.getByPlaceholderText("尚未选择非因工条款");
@@ -38,7 +38,7 @@ describe("InjuryGradeField", () => {
     ).toBeDisabled();
     expect(
       screen.getByRole("button", {
-        name: "不符合完全或大部分丧失劳动能力",
+        name: "未达到完全或大部分丧失劳动能力",
       }),
     ).toBeDisabled();
 
@@ -53,7 +53,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.3 一级"));
+    await user.click(await screen.findByText("1.3 1级"));
 
     await waitFor(() => {
       expect(
@@ -61,11 +61,11 @@ describe("InjuryGradeField", () => {
       ).toHaveValue(FIRST_LABEL);
     });
 
-    expect(screen.getByRole("button", { name: "一级" })).toHaveAttribute(
+    expect(screen.getByRole("button", { name: "1级" })).toHaveAttribute(
       "aria-pressed",
       "true",
     );
-    expect(screen.getByRole("button", { name: "一级" })).toBeDisabled();
+    expect(screen.getByRole("button", { name: "1级" })).toBeDisabled();
     expect(screen.getByPlaceholderText("尚未选择工伤条款")).toHaveAttribute(
       "readonly",
     );
@@ -80,7 +80,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.3 一级"));
+    await user.click(await screen.findByText("1.3 1级"));
 
     await waitFor(() => {
       expect(
@@ -89,14 +89,14 @@ describe("InjuryGradeField", () => {
     });
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("1.1 一级"));
+    await user.click(await screen.findByText("1.1 1级"));
 
     await waitFor(() => {
       expect(
         screen.getByPlaceholderText("尚未选择工伤条款"),
       ).toHaveValue(SECOND_LABEL);
     });
-    expect(screen.getByRole("button", { name: "一级" })).toHaveAttribute(
+    expect(screen.getByRole("button", { name: "1级" })).toHaveAttribute(
       "aria-pressed",
       "true",
     );
@@ -129,7 +129,7 @@ describe("InjuryGradeField", () => {
 
     await user.click(getAssistButtons()[1]);
     await user.click(screen.getByText("GB/T 16180—2014"));
-    await user.click(await screen.findByText("1.3 一级"));
+    await user.click(await screen.findByText("1.3 1级"));
 
     await waitFor(() => {
       expect(
@@ -174,7 +174,7 @@ describe("InjuryGradeField", () => {
     });
     expect(
       screen.getByRole("button", {
-        name: "不符合完全或大部分丧失劳动能力",
+        name: "未达到完全或大部分丧失劳动能力",
       }),
     ).toHaveAttribute("aria-pressed", "true");
   });
