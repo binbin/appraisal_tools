@@ -17,8 +17,8 @@ import { filterClauses } from "../appraisal/utils/filterClauses";
 import { filterInjuryClausesForNonWorkGb } from "../appraisal/utils/filterInjuryByDisabilityDegree";
 import { filterNonWorkClauses } from "../appraisal/utils/filterNonWorkClauses";
 import { NonWorkReferencePanel } from "./NonWorkReferencePanel";
-import { NotApplicableAction } from "./NotApplicableAction";
-import "./ClauseAssistDrawer.css";
+import { NotApplicableAction } from "../appraisal/shared/NotApplicableAction";
+import "../appraisal/shared/clause-list.css";
 
 export type NonWorkStandardSource = "labor_2002" | "gb_t16180";
 

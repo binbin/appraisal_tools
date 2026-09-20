@@ -12,8 +12,8 @@ import {
   AppendixFrameworkHint,
   AppendixReferencePanel,
 } from "./AppendixReferencePanel";
-import { NotApplicableAction } from "./NotApplicableAction";
-import "./ClauseAssistDrawer.css";
+import { NotApplicableAction } from "../appraisal/shared/NotApplicableAction";
+import "../appraisal/shared/clause-list.css";
 
 export type ClauseAssistDrawerProps = {
   open: boolean;

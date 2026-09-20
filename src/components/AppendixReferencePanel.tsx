@@ -7,7 +7,7 @@ import {
 import { getAssetsForCategory } from "../appraisal/data/standard-assets";
 import type { InjuryClause, SpecialtyCategory } from "../appraisal/types/clause";
 import { StandardAssetGallery } from "./StandardAssetGallery";
-import "./AppendixReferencePanel.css";
+import "../appraisal/shared/reference-panel.css";
 
 export type AppendixReferencePanelProps = {
   kind: AppendixKind;

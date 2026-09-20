@@ -3,7 +3,7 @@ import {
   getNonWorkReferenceSection,
   type NonWorkReferenceKind,
 } from "../appraisal/data/non-work-disability-reference";
-import "./AppendixReferencePanel.css";
+import "../appraisal/shared/reference-panel.css";
 
 export type NonWorkReferencePanelProps = {
   kind: NonWorkReferenceKind;
