@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Drawer, Empty, Input, Tabs } from "antd";
+import { Drawer, Input, Select, Tabs } from "antd";
 import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
 import type { AppendixKind } from "../data/gb-t16180-appendices";
 import {
@@ -7,11 +7,15 @@ import {
   type InjuryClause,
   type SpecialtyCategory,
 } from "../types/clause";
-import { filterClauses } from "../utils/filterClauses";
+import {
+  filterClauses,
+  listBodySystemsForCategory,
+} from "../utils/filterClauses";
 import {
   AppendixFrameworkHint,
   AppendixReferencePanel,
 } from "./AppendixReferencePanel";
+import { InjuryClauseList } from "../shared/InjuryClauseList";
 import { NotApplicableAction } from "../shared/NotApplicableAction";
 import "../shared/clause-list.css";
 
@@ -43,6 +47,7 @@ export function ClauseAssistDrawer({
   onNotApplicable,
 }: ClauseAssistDrawerProps) {
   const [keyword, setKeyword] = useState("");
+  const [bodySystem, setBodySystem] = useState<string | null>(null);
   const [contentMode, setContentMode] = useState<ContentMode>("clauses");
   const selectedIdSet = toIdSet(selectedIds);
 
@@ -51,11 +56,20 @@ export function ClauseAssistDrawer({
       return;
     }
     setKeyword("");
+    setBodySystem(null);
   }, [activeCategory, open]);
 
+  const bodySystemOptions = useMemo(
+    () => listBodySystemsForCategory(INJURY_CLAUSES, activeCategory),
+    [activeCategory],
+  );
+
   const visibleClauses = useMemo(
-    () => filterClauses(INJURY_CLAUSES, activeCategory, keyword),
-    [activeCategory, keyword],
+    () =>
+      filterClauses(INJURY_CLAUSES, activeCategory, keyword, {
+        bodySystem,
+      }),
+    [activeCategory, bodySystem, keyword],
   );
 
   return (
@@ -95,50 +109,32 @@ export function ClauseAssistDrawer({
 
       {contentMode === "clauses" ? (
         <>
-          <Input.Search
-            allowClear
-            placeholder="搜索条款编号、等级或摘要"
-            value={keyword}
-            onChange={(event) => setKeyword(event.target.value)}
-            style={{ marginBottom: 12 }}
-          />
-          {visibleClauses.length === 0 ? (
-            <Empty
-              description="无匹配条款"
-              image={Empty.PRESENTED_IMAGE_SIMPLE}
+          <div className="clause-filters">
+            <Input.Search
+              allowClear
+              className="clause-filters__search"
+              placeholder="搜索编号、等级、摘要、同义词"
+              value={keyword}
+              onChange={(event) => setKeyword(event.target.value)}
             />
-          ) : (
-            <>
-              <div className="clause-list-meta">
-                共 {visibleClauses.length} 条（本门类正文）
-              </div>
-              <ul className="clause-list">
-                {visibleClauses.map((clause) => {
-                  const isSelected = selectedIdSet.has(clause.id);
-                  return (
-                    <li key={clause.id}>
-                      <button
-                        type="button"
-                        className={
-                          isSelected
-                            ? "clause-item clause-item--selected"
-                            : "clause-item"
-                        }
-                        onClick={() => onSelect(clause)}
-                      >
-                        <span className="clause-item__meta">
-                          {clause.code} {clause.grade}
-                        </span>
-                        <span className="clause-item__summary">
-                          {clause.summary}
-                        </span>
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            </>
-          )}
+            <Select
+              allowClear
+              className="clause-filters__system"
+              placeholder="身体系统"
+              value={bodySystem}
+              options={bodySystemOptions.map((system) => ({
+                value: system,
+                label: system,
+              }))}
+              onChange={(value) => setBodySystem(value ?? null)}
+            />
+          </div>
+          <InjuryClauseList
+            selectedIdSet={selectedIdSet}
+            clauses={visibleClauses}
+            metaLabel="（本门类正文）"
+            onSelect={onSelect}
+          />
         </>
       ) : (
         <AppendixReferencePanel

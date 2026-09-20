@@ -47,3 +47,20 @@
   color: #64748b;
   line-height: 1.45;
 }
+
+.clause-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.clause-filters__search {
+  flex: 1 1 240px;
+  min-width: 200px;
+}
+
+.clause-filters__system {
+  flex: 0 1 160px;
+  min-width: 140px;
+}

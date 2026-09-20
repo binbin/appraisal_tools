@@ -1,22 +1,75 @@
 import { describe, expect, it } from "vitest";
-import { CATEGORY_OPTIONS } from "../types/clause";
+import {
+  CATEGORY_OPTIONS,
+  getClauseCategories,
+} from "../types/clause";
 import { INJURY_CLAUSES } from "./gb-t16180-2014";
 
 const SUB_CLAUSE_CODE_PATTERN = /^5\.(?:[1-9]|10)\.2\(\d+\)$/;
 const EXPECTED_TOTAL = 530;
+const EXPECTED_MULTI_CATEGORY = 104;
 
 describe("INJURY_CLAUSES", () => {
   it("contains the full GB/T 16180 clause set", () => {
     expect(INJURY_CLAUSES).toHaveLength(EXPECTED_TOTAL);
   });
 
-  it("covers all five specialty categories", () => {
+  it("covers all five specialty categories via searchable categories", () => {
     for (const option of CATEGORY_OPTIONS) {
-      const count = INJURY_CLAUSES.filter(
-        (clause) => clause.category === option.key,
+      const count = INJURY_CLAUSES.filter((clause) =>
+        getClauseCategories(clause).includes(option.key),
       ).length;
       expect(count).toBeGreaterThanOrEqual(3);
     }
+  });
+
+  it("keeps primary category inside categories union", () => {
+    for (const clause of INJURY_CLAUSES) {
+      expect(getClauseCategories(clause)).toContain(clause.category);
+    }
+  });
+
+  it("marks ambiguous clauses with multiple categories", () => {
+    const multi = INJURY_CLAUSES.filter(
+      (clause) => getClauseCategories(clause).length > 1,
+    );
+    expect(multi).toHaveLength(EXPECTED_MULTI_CATEGORY);
+
+    const tetraplegia = INJURY_CLAUSES.find(
+      (item) => item.code === "5.1.2(2)",
+    );
+    expect(getClauseCategories(tetraplegia!)).toEqual([
+      "neuro_psych",
+      "ortho_plastic",
+    ]);
+    expect(tetraplegia?.category).toBe("neuro_psych");
+
+    const apraxia = INJURY_CLAUSES.find(
+      (item) => item.code === "5.3.2(7)",
+    );
+    expect(getClauseCategories(apraxia!)).toEqual(["neuro_psych"]);
+  });
+
+  it("supports multi bodySystems for multi-site clauses", () => {
+    const bothLimbs = INJURY_CLAUSES.find(
+      (item) => item.code === "5.1.2(7)",
+    );
+    expect(bothLimbs?.bodySystems).toEqual(["下肢", "上肢"]);
+
+    const scarSpine = INJURY_CLAUSES.find(
+      (item) => item.code === "5.1.2(5)",
+    );
+    expect(scarSpine?.bodySystems).toEqual([
+      "皮肤",
+      "脊柱",
+      "上肢",
+      "下肢",
+    ]);
+
+    const multiBody = INJURY_CLAUSES.filter(
+      (clause) => (clause.bodySystems?.length ?? 0) > 1,
+    );
+    expect(multiBody.length).toBeGreaterThanOrEqual(25);
   });
 
   it("covers all ten disability grades", () => {

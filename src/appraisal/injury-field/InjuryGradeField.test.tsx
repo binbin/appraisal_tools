@@ -53,7 +53,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("5.1.2(3) 1级"));
+    await user.click(await screen.findByText(/5\.1\.2\(3\) 1级/));
 
     await waitFor(() => {
       expect(
@@ -80,7 +80,7 @@ describe("InjuryGradeField", () => {
     render(<InjuryGradeField />);
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("5.1.2(3) 1级"));
+    await user.click(await screen.findByText(/5\.1\.2\(3\) 1级/));
 
     await waitFor(() => {
       expect(
@@ -89,7 +89,7 @@ describe("InjuryGradeField", () => {
     });
 
     await user.click(getAssistButtons()[0]);
-    await user.click(await screen.findByText("5.1.2(1) 1级"));
+    await user.click(await screen.findByText(/5\.1\.2\(1\) 1级/));
 
     await waitFor(() => {
       expect(
@@ -129,7 +129,7 @@ describe("InjuryGradeField", () => {
 
     await user.click(getAssistButtons()[1]);
     await user.click(screen.getByText("GB/T 16180—2014"));
-    await user.click(await screen.findByText("5.1.2(3) 1级"));
+    await user.click(await screen.findByText(/5\.1\.2\(3\) 1级/));
 
     await waitFor(() => {
       expect(

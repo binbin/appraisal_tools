@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Drawer, Empty, Input, Tabs } from "antd";
+import { Drawer, Empty, Input, Select, Tabs } from "antd";
 import { INJURY_CLAUSES } from "../data/gb-t16180-2014";
 import { NON_WORK_DISABILITY_CLAUSES } from "../data/non-work-disability-2002";
 import type { NonWorkReferenceKind } from "../data/non-work-disability-reference";
@@ -13,9 +13,13 @@ import {
   type DisabilityDegree,
   type NonWorkDisabilityClause,
 } from "../types/nonWorkDisability";
-import { filterClauses } from "../utils/filterClauses";
+import {
+  filterClauses,
+  listBodySystemsForCategory,
+} from "../utils/filterClauses";
 import { filterInjuryClausesForNonWorkGb } from "../utils/filterInjuryByDisabilityDegree";
 import { filterNonWorkClauses } from "../utils/filterNonWorkClauses";
+import { InjuryClauseList } from "../shared/InjuryClauseList";
 import { NonWorkReferencePanel } from "./NonWorkReferencePanel";
 import { NotApplicableAction } from "../shared/NotApplicableAction";
 import "../shared/clause-list.css";
@@ -58,21 +62,19 @@ function toIdSet(
   return selectedIds instanceof Set ? selectedIds : new Set(selectedIds);
 }
 
-type ClauseListProps = {
+type NonWorkClauseListProps = {
   selectedIdSet: ReadonlySet<string>;
-  clauses: readonly (NonWorkDisabilityClause | InjuryClause)[];
+  clauses: readonly NonWorkDisabilityClause[];
   metaLabel: string;
-  onSelect: (clause: NonWorkDisabilityClause | InjuryClause) => void;
-  renderMeta: (clause: NonWorkDisabilityClause | InjuryClause) => string;
+  onSelect: (clause: NonWorkDisabilityClause) => void;
 };
 
-function ClauseList({
+function NonWorkClauseList({
   selectedIdSet,
   clauses,
   metaLabel,
   onSelect,
-  renderMeta,
-}: ClauseListProps) {
+}: NonWorkClauseListProps) {
   if (clauses.length === 0) {
     return (
       <Empty
@@ -101,7 +103,7 @@ function ClauseList({
                 }
                 onClick={() => onSelect(clause)}
               >
-                <span className="clause-item__meta">{renderMeta(clause)}</span>
+                <span className="clause-item__meta">{clause.code}</span>
                 <span className="clause-item__summary">{clause.summary}</span>
               </button>
             </li>
@@ -122,6 +124,7 @@ export function NonWorkDisabilityDrawer({
   onNotApplicable,
 }: NonWorkDisabilityDrawerProps) {
   const [keyword, setKeyword] = useState("");
+  const [bodySystem, setBodySystem] = useState<string | null>(null);
   const [standardSource, setStandardSource] =
     useState<NonWorkStandardSource>("labor_2002");
   const [laborContentMode, setLaborContentMode] =
@@ -138,6 +141,7 @@ export function NonWorkDisabilityDrawer({
       return;
     }
     setKeyword("");
+    setBodySystem(null);
   }, [activeDegree, open, standardSource, activeCategory, laborContentMode]);
 
   const visibleNonWorkClauses = useMemo(
@@ -150,10 +154,23 @@ export function NonWorkDisabilityDrawer({
     [activeDegree, keyword],
   );
 
-  const visibleInjuryClauses = useMemo(() => {
-    const byGrade = filterInjuryClausesForNonWorkGb(INJURY_CLAUSES);
-    return filterClauses(byGrade, activeCategory, keyword);
-  }, [activeCategory, keyword]);
+  const gbSourceClauses = useMemo(
+    () => filterInjuryClausesForNonWorkGb(INJURY_CLAUSES),
+    [],
+  );
+
+  const bodySystemOptions = useMemo(
+    () => listBodySystemsForCategory(gbSourceClauses, activeCategory),
+    [activeCategory, gbSourceClauses],
+  );
+
+  const visibleInjuryClauses = useMemo(
+    () =>
+      filterClauses(gbSourceClauses, activeCategory, keyword, {
+        bodySystem,
+      }),
+    [activeCategory, bodySystem, gbSourceClauses, keyword],
+  );
 
   return (
     <Drawer
@@ -214,38 +231,51 @@ export function NonWorkDisabilityDrawer({
             />
           )}
 
-          <Input.Search
-            allowClear
-            placeholder={
-              isGbSource
-                ? "搜索条款编号、等级或摘要"
-                : "搜索条款编号、程度或摘要"
-            }
-            value={keyword}
-            onChange={(event) => setKeyword(event.target.value)}
-            style={{ marginBottom: 12 }}
-          />
-
           {isGbSource ? (
-            <ClauseList
-              selectedIdSet={selectedIdSet}
-              clauses={visibleInjuryClauses}
-              metaLabel="（本门类，一至六级）"
-              onSelect={onSelect}
-              renderMeta={(clause) =>
-                "grade" in clause
-                  ? `${clause.code} ${clause.grade}`
-                  : clause.code
-              }
-            />
+            <>
+              <div className="clause-filters">
+                <Input.Search
+                  allowClear
+                  className="clause-filters__search"
+                  placeholder="搜索编号、等级、摘要、同义词"
+                  value={keyword}
+                  onChange={(event) => setKeyword(event.target.value)}
+                />
+                <Select
+                  allowClear
+                  className="clause-filters__system"
+                  placeholder="身体系统"
+                  value={bodySystem}
+                  options={bodySystemOptions.map((system) => ({
+                    value: system,
+                    label: system,
+                  }))}
+                  onChange={(value) => setBodySystem(value ?? null)}
+                />
+              </div>
+              <InjuryClauseList
+                selectedIdSet={selectedIdSet}
+                clauses={visibleInjuryClauses}
+                metaLabel="（本门类，一至六级）"
+                onSelect={onSelect}
+              />
+            </>
           ) : (
-            <ClauseList
-              selectedIdSet={selectedIdSet}
-              clauses={visibleNonWorkClauses}
-              metaLabel="（本程度档次）"
-              onSelect={onSelect}
-              renderMeta={(clause) => clause.code}
-            />
+            <>
+              <Input.Search
+                allowClear
+                placeholder="搜索条款编号、程度或摘要"
+                value={keyword}
+                onChange={(event) => setKeyword(event.target.value)}
+                style={{ marginBottom: 12 }}
+              />
+              <NonWorkClauseList
+                selectedIdSet={selectedIdSet}
+                clauses={visibleNonWorkClauses}
+                metaLabel="（本程度档次）"
+                onSelect={onSelect}
+              />
+            </>
           )}
         </>
       ) : (

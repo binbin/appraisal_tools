@@ -7,7 +7,12 @@ export {
   NonWorkDisabilityDrawer,
   type NonWorkDisabilityDrawerProps,
 } from "./non-work/NonWorkDisabilityDrawer";
-export type { InjuryClause, SpecialtyCategory } from "./types/clause";
+export {
+  getClauseBodySystems,
+  getClauseCategories,
+  type InjuryClause,
+  type SpecialtyCategory,
+} from "./types/clause";
 export type {
   DisabilityDegree,
   NonWorkDisabilityClause,
