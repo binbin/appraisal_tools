@@ -28,7 +28,7 @@
 | `InjuryGradeField` | 完整表单入口 |
 | `ClauseAssistDrawer`、`ClauseAssistDrawerProps` | 独立工伤条款抽屉 |
 | `NonWorkDisabilityDrawer`、`NonWorkDisabilityDrawerProps` | 独立非因工抽屉 |
-| 必要类型 | `InjuryClause`、`SpecialtyCategory`、`DisabilityDegree`、`NonWorkDisabilityClause`、结论相关类型 |
+| 必要类型 | `InjuryClause`、`SpecialtyCategory`、`DisabilityDegree`、`NonWorkDisabilityClause`、`InjuryResultOption`、`NonWorkResultOption` |
 
 内部实现（附录面板、图库、`NotApplicableAction`、`ResultOptionBar`、
 `data/`、`utils/`）**不从 barrel 导出**。
