@@ -23,16 +23,16 @@ describe("INJURY_CLAUSES", () => {
     const grades = new Set(INJURY_CLAUSES.map((clause) => clause.grade));
     expect(grades).toEqual(
       new Set([
-        "一级",
-        "二级",
-        "三级",
-        "四级",
-        "五级",
-        "六级",
-        "七级",
-        "八级",
-        "九级",
-        "十级",
+        "1级",
+        "2级",
+        "3级",
+        "4级",
+        "5级",
+        "6级",
+        "7级",
+        "8级",
+        "9级",
+        "10级",
       ]),
     );
   });
@@ -49,11 +49,11 @@ describe("INJURY_CLAUSES", () => {
 
   it("includes known anchors like 3.1 and 5.5", () => {
     const threeOne = INJURY_CLAUSES.find((item) => item.code === "3.1");
-    expect(threeOne?.grade).toBe("三级");
+    expect(threeOne?.grade).toBe("3级");
     expect(threeOne?.summary).toContain("精神病性症状");
 
     const fiveFive = INJURY_CLAUSES.find((item) => item.code === "5.5");
-    expect(fiveFive?.grade).toBe("五级");
+    expect(fiveFive?.grade).toBe("5级");
   });
 
   it("matches PDF-verified cleaned summaries", () => {

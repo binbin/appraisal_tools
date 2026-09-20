@@ -2,10 +2,10 @@ import type { InjuryClause } from "../types/clause";
 import type { DisabilityDegree } from "../types/nonWorkDisability";
 
 /** 完全丧失劳动能力 ↔ 工伤 1～4 级 */
-const COMPLETE_GRADES = new Set(["一级", "二级", "三级", "四级"]);
+const COMPLETE_GRADES = new Set(["1级", "2级", "3级", "4级"]);
 
-/** 大部分丧失劳动能力 ↔ 工伤 5～6 级；七级及以下不展示 */
-const MAJOR_GRADES = new Set(["五级", "六级"]);
+/** 大部分丧失劳动能力 ↔ 工伤 5～6 级；7 级及以下不展示 */
+const MAJOR_GRADES = new Set(["5级", "6级"]);
 
 const NON_WORK_GB_GRADES = new Set([
   ...COMPLETE_GRADES,

@@ -9,10 +9,10 @@ import {
 describe("filterInjuryClausesByDisabilityDegree", () => {
   it("maps complete loss to grades 1-4 only", () => {
     expect([...gradesForDisabilityDegree("complete")]).toEqual([
-      "一级",
-      "二级",
-      "三级",
-      "四级",
+      "1级",
+      "2级",
+      "3级",
+      "4级",
     ]);
     const result = filterInjuryClausesByDisabilityDegree(
       INJURY_CLAUSES,
@@ -21,7 +21,7 @@ describe("filterInjuryClausesByDisabilityDegree", () => {
     expect(result.length).toBeGreaterThan(0);
     expect(
       result.every((clause) =>
-        ["一级", "二级", "三级", "四级"].includes(clause.grade),
+        ["1级", "2级", "3级", "4级"].includes(clause.grade),
       ),
     ).toBe(true);
   });
@@ -33,9 +33,9 @@ describe("filterInjuryClausesByDisabilityDegree", () => {
     );
     expect(result.length).toBeGreaterThan(0);
     expect(
-      result.every((clause) => ["五级", "六级"].includes(clause.grade)),
+      result.every((clause) => ["5级", "6级"].includes(clause.grade)),
     ).toBe(true);
-    expect(result.some((clause) => clause.grade === "七级")).toBe(false);
+    expect(result.some((clause) => clause.grade === "7级")).toBe(false);
   });
 });
 
@@ -45,11 +45,11 @@ describe("filterInjuryClausesForNonWorkGb", () => {
     expect(result.length).toBeGreaterThan(0);
     expect(
       result.every((clause) =>
-        ["一级", "二级", "三级", "四级", "五级", "六级"].includes(
+        ["1级", "2级", "3级", "4级", "5级", "6级"].includes(
           clause.grade,
         ),
       ),
     ).toBe(true);
-    expect(result.some((clause) => clause.grade === "七级")).toBe(false);
+    expect(result.some((clause) => clause.grade === "7级")).toBe(false);
   });
 });

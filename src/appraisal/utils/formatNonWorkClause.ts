@@ -22,7 +22,7 @@ export const GB_MAJOR_CITATION_PREFIX =
 export const NON_WORK_NOT_APPLICABLE_TEXT =
   "不符合劳社部发〔2002〕8号相关条款";
 
-const COMPLETE_GRADES = new Set(["一级", "二级", "三级", "四级"]);
+const COMPLETE_GRADES = new Set(["1级", "2级", "3级", "4级"]);
 
 /** 劳社部发条款：依据前缀 + 编号 + 原文 */
 export function formatNonWorkClause(

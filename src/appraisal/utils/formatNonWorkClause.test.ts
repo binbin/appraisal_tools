@@ -23,7 +23,7 @@ describe("formatNonWorkInjuryClause", () => {
     expect(
       formatNonWorkInjuryClause({
         code: "1.3",
-        grade: "一级",
+        grade: "1级",
         summary: "重度非肢体瘫运动障碍",
       }),
     ).toBe(`${GB_COMPLETE_CITATION_PREFIX}1.3 重度非肢体瘫运动障碍`);
@@ -33,7 +33,7 @@ describe("formatNonWorkInjuryClause", () => {
     expect(
       formatNonWorkInjuryClause({
         code: "5.6",
-        grade: "五级",
+        grade: "5级",
         summary: "四肢瘫肌力4级",
       }),
     ).toBe(`${GB_MAJOR_CITATION_PREFIX}5.6 四肢瘫肌力4级`);
